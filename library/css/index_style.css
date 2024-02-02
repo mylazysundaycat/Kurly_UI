@@ -1,0 +1,27 @@
+header {
+    width: 1050px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.register-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 10px auto;
+}
+
+.logo-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 35px auto;
+}
+
+.category-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px auto;
+}
+
