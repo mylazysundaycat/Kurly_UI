@@ -9,6 +9,7 @@
     font-style: normal;
 }
 
+
 .order{
     width: 1050px;
     height: 36px;
@@ -190,8 +191,8 @@
 .center{
     width: 1050px;
     height: 2153px;
-    margin: 0 auto;
     display: flex;
+    margin: 0 auto;
 }
 .left{
     width: 742px;
@@ -200,7 +201,7 @@
 }
 .right{
     width: 284px;
-    height: 466px;
+    height: 2184px;
 }
 
 .sum_title{
@@ -875,4 +876,207 @@
     font-size: 16px;
     text-align: center;
     padding-top: 18px;
+}
+
+.bottom{
+    clear: both;
+    width: 1050px;
+    height: 326px;
+    padding-top: 30px;
+    margin: 60px auto 0 auto;
+    display: flex;
+}
+.bottom_left{
+    width: 440px;
+    height: 326px;
+    margin-right: 88px;
+}
+.customer_center{
+    width: 440px;
+    height: 29px;
+    padding-bottom: 17px;
+    font-size: 20px;
+}
+.number{
+    width: 440px;
+    height: 44px;
+    padding-bottom: 20px;
+    display: flex;
+}
+.number_text{
+    font-size: 28px;
+    margin-right: 8px;
+}
+.time{
+    width: 230px;
+    height: 20px;
+    margin-left: 8px;
+    font-size: 16px;
+    padding-top: 20px;
+}
+.kao_inquiry{
+    width: 440px;
+    height: 56px;
+    display: flex;
+}
+.kao_talk{
+    width: 140px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 0 16px 16px 0;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+}
+.kao_time{
+    font-size: 14px;
+    color: #999;
+}
+.one_inquiry{
+    width: 440px;
+    height: 56px;
+    display: flex;
+}
+.one_talk{
+    width: 140px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 0 16px 16px 0;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+}
+.one_time{
+    font-size: 14px;
+    letter-spacing: -2px;
+    color: #999;
+}
+.large_inquiry{
+    width: 440px;
+    height: 56px;
+    display: flex;
+}
+.large_talk{
+    width: 140px;
+    height: 30px;
+    padding-top: 10px;
+    margin: 0 16px 16px 0;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #e2e2e2;
+    border-radius: 3px;
+}
+.large_time{
+    font-size: 14px;
+    color: #999;
+}
+.no_customer{
+    font-size: 12px;
+    color: #999999;
+}
+
+.bottom_right{
+    width: 522px;
+    height: 296px;
+}
+.info{
+    width: 522px;
+    height: 18px;
+    padding-bottom: 29px;
+    font-size: 14px;
+}
+.info_two{
+    margin-bottom: 40px;
+    font-size: 12px;
+    color: #666666;
+}
+.images{
+    display: flex;
+}
+.instagram{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.fb{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.blog{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.post{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.youtube{
+    width: 30px;
+    height: 30px;
+}
+
+.bottom2{
+    width: 1050px;
+    height: 44px;
+    margin: 0 auto;
+    padding: 26px 0 33px;
+    display: flex;
+    font-size: 10px;
+    color: #999999;
+    border-top: 1px solid #eee;
+}
+.isms{
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+}
+.isms_text{
+    width: 300px;
+    height: 44px;
+    letter-spacing: -1px;
+}
+.privacy{
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+}
+.privacy_text{
+    width: 320px;
+    height: 44px;
+    letter-spacing: -1px;
+}
+.payments{
+    width: 102px;
+    height: 32px;
+    margin-right: 10px;
+}
+.payments_text{
+    width: 240px;
+    height: 44px;
+    letter-spacing: -1px;
+}
+.bank{
+    width: 34px;
+    height: 34px;
+    margin-right: 10px;
+}
+.bank_text{
+    width: 300px;
+    height: 44px;
+    letter-spacing: -1px;
+}
+
+.footer{
+    width: 1150px;
+    height: 52px;
+    padding: 20px 0 30px;
+    margin: 0 auto;
+    font-size: 10px;
+    color:#999999;
+    text-align: center;
 }
