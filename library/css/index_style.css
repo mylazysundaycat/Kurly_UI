@@ -1,27 +1,205 @@
+html {
+    font-family: "Noto Sans", "malgun gothic", "AppleGothic", "dotum", sans-serif;
+}
 header {
-    width: 1050px;
+    width: 1100px;
     height: 100px;
     margin: 0 auto;
 }
+body {
+    margin: 0;
+}
+
+
+.benefit-banner {
+    background-color: #5F0080;
+    padding: 8px 0 8px 0;
+    text-align: center;
+    font-size: 13px;
+}
+
 
 .register-row {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     margin: 10px auto;
+    font-size: 13px;
 }
+.register-row .register{
+    padding-right: 10px;
+}
+
+.register-row .seperator{
+
+}
+
+.register-row .login{
+    padding-left: 10px;
+}
+
+
 
 .logo-row {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 35px auto;
+
+    margin: 25px auto 10px auto;
 }
+.logo-row .logo-icon{
+    padding-left: 10px;
+}
+
+.logo-row .logo-icon img {
+    width: 90px;
+    height: 45px;
+}
+
+.logo-row .market-kurly {
+    margin: auto 0 auto 18px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.logo-row .seperator{
+    margin: auto 0 auto 10px;
+    font-size: 18px;
+}
+
+.logo-row .beauty-kurly{
+    margin: auto 60px auto 10px;
+    font-size: 18px;
+}
+
+/* 검색 아이콘 */
+ .material-symbols-outlined {
+     font-variation-settings:
+             'FILL' 0,
+             'wght' 400,
+             'GRAD' 0,
+             'opsz' 24
+ }
+
+ .search {
+     margin-right: 160px;
+ }
+
+ .search-form{
+     border-radius: 6px;
+     padding:10px;
+     border: 1px solid #5F0080;
+     height: 47px;
+     width: 400px;
+     padding: 0px;
+ }
+.search-form .search-box{
+    font-size: 17px;
+    margin: 12px 5px auto 10px;
+    width: 340px;
+    float: left;
+    border: none;
+}
+
+ .search-form .search-btn{
+     border:none;
+     cursor: pointer;
+     float:right;
+     background-color: rgba(0, 0, 0, 0);
+     margin-top: 10px;
+     margin-right: 6px;
+ }
+
+/*사이즈*/
+
+.nav3{
+    margin: auto 0 auto 30px;
+    width: 30px;
+    height: 30px;
+}
+
+.vertical-uni{
+    margin: auto 0;
+}
+
+
+
+
 
 .category-row{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin: 10px auto;
+    margin: 0;
 }
+.category-row .category{
+    padding-left: 6px;
+    margin-right: 150px;
+}
+
+.category-btn {
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+    height: 40px;
+    font-size: 17px;
+    border: 0;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.category-btn div{
+    padding-right: 8px;
+    margin: auto;
+    height: 24px;
+}
+
+.ni-font{
+    font-size: 17px;
+}
+
+.ni-margin1{
+    margin: auto 0;
+    margin-right: 84px;
+}
+
+.special-shipping {
+    margin: auto 0 auto 80px;
+}
+
+
+/*리스트 아이콘*/
+.material-symbols-outlined {
+    font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 24
+}
+
+
+/*마켓컬리 폰트 색상*/
+.main-color {
+    color: #5F0080;
+}
+
+.sub-color1{
+    color: #D9D9D9;
+}
+
+.sub-color2{
+    color: #A7A7A7;
+}
+
+.discount-color{
+    color: #FA622F;
+}
+
+.white-color{
+    color: white;
+}
+/*폰트 굵기*/
+.font-bold{
+    font-weight: bold;
+}
+
+
 
