@@ -1072,7 +1072,8 @@
 }
 
 .footer{
-    width: 1150px;
+    background-color: #f7f7f7;
+    width: 100%
     height: 52px;
     padding: 20px 0 30px;
     margin: 0 auto;
