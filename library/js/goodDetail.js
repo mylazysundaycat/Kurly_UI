@@ -23,6 +23,8 @@ window.addEventListener("DOMContentLoaded", function () {
 
     // 상품 상세정보 탭 이동
     $(".goods-view-infomation-tab-anchor").click(function () {
+      $(".goods-view-infomation-tab-anchor").removeClass("active");
+      $(this).addClass("active");
       onTabClick(e, $(this));
     });
 
