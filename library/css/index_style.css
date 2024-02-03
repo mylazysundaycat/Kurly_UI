@@ -132,13 +132,13 @@ body {
 }
 .category-row .category{
     padding-left: 6px;
-    margin-right: 150px;
+    margin-right: 154px;
 }
 
 .category-btn {
     display: flex;
     flex-direction: row;
-    margin: 10px auto;
+    margin: 11px auto;
     height: 40px;
     font-size: 17px;
     border: 0;
@@ -153,16 +153,25 @@ body {
 }
 
 .ni-font{
-    font-size: 17px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    color: rgb(51, 51, 51);
+
 }
 
 .ni-margin1{
     margin: auto 0;
-    margin-right: 84px;
+    margin-right: 88px;
 }
 
 .special-shipping {
     margin: auto 0 auto 80px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    border: 1px solid #e5e5e5;
+    font-size: 14px;
 }
 
 
@@ -201,5 +210,9 @@ body {
     font-weight: bold;
 }
 
+/*커서 */
+.cur{
+    cursor: pointer;
+}
 
 
