@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>주문화면</title>
     <link rel="stylesheet" href="../library/css/ysm.css">
+    <script defer src="../library/js/ysm.js"></script>
 </head>
 <body>
 <div class = "Order_page-order"><!-- 주문서 -->
@@ -48,7 +49,7 @@
     <p class="Order_page-place">배송지</p>
     <p class="Order_page-address">서울특별시 성동구 아차산로 17길 48 성수낙낙 2층</p>
 </div>
-<div class="Order_page-delivery_request">
+<div class="Order_page-delivery_request"> <!-- 결제금액 바로 윗부분-->
     <p class="Order_page-text_request">배송 요청사항</p>
     <div class="Order_page-request_details">
         <p>배송 요청사항을 입력해주세요</p>
@@ -247,6 +248,7 @@
     </div>
 
     <div class="Order_page-right"><!--결제 금액-->
+        <div class = "Order_page_all">
         <div class="Order_page-sum_title">
             <p>결제 금액</p>
         </div>
@@ -297,6 +299,7 @@
         <img class="Order_page-last_img"
              src="../library/img/last.png"
              alt="last_img"/>
+        </div>
     </div>
 </div>
 

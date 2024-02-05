@@ -207,7 +207,9 @@
 .Order_page-right{
     width: 284px;
     height: 2184px;
+    overflow:hidden;
 }
+.Order_page-right.fixed .Order_page_all{position:fixed; top:0;}
 
 .Order_page-sum_title{
     font-weight: bold;
