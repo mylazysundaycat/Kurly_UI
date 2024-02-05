@@ -1,10 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- main css -->
+    <link rel="stylesheet" href="library/css/index_style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <meta charset="UTF-8">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+
     <title>메인 페이지</title>
 </head>
 <body>
+<!-- 세일 배너 -->
+<div class="benefit-banner white-color">
+지금 가입하고, 1만원 할인쿠폰 받아가세요!
+</div>
+<!-- 헤더 및 네비게이션 -->
+<header>
+    <div class="register-row">
+        <div class="register main-color cur">회원가입</div>
+        <div class="seperator sub-color1">|</div>
+        <div class="login cur">로그인</div>
+    </div>
+    <div class="logo-row">
+        <div class="logo-icon"><img src="library/img/logo-icon.png" alt="Kurly"></div>
+        <div class="market-kurly main-color cur">마켓컬리</div>
+        <div class="seperator sub-color1">|</div>
+        <div class="beauty-kurly sub-color2 cur">뷰티컬리</div>
+        <div class="search">
+            <form action="/search" method="get" class="search-form">
+                <input type="search" class="search-box" name="search-box" placeholder="검색어를 입력해주세요">
+                <button class="search-btn" type="submit">
+                    <span class="material-symbols-outlined">search</span>
+                </button>
+            </form>
+        </div>
+        <div class="location-icon vertical-uni cur">
+            <img src="library/img/location-icon.png" class="nav3 cur" alt="location">
+        </div>
+        <div class="heart-icon vertical-uni ">
+            <img src="library/img/heart-icon.png" class="nav3 cur" alt="heart">
+        </div>
+        <div class="cart-icon vertical-uni">
+            <img src="library/img/cart-icon.png" class="nav3 cur" alt="cart">
+        </div>
+    </div>
+    <div class="category-row">
+        <div class="category">
+            <button class="category-btn">
+            <div class="material-symbols-outlined">menu</div>
+            <div>카테고리</div>
+            </button>
+        </div>
+        <div class="ni-font ni-margin1">신상품</div>
+        <div class="ni-font ni-margin1">베스트</div>
+        <div class="ni-font ni-margin1">알뜰쇼핑</div>
+        <div class="ni-font ni-margin1">특가/혜택</div>
+        <div class="special-shipping"><span class="main-color font-bold">샛별·하루</span>배송안내</div>
+    </div>
+</header>
+<!-- 헤더 및 네비게이션 종료 -->
+<!-- 메인 -->
+<main>
+
+    <article class="main-banner cur">
+        <img src="library/img/kurly-banner.jpg" alt="배너">
+    </article>
+    <article class="product-container1">
+        <div class="c1-title cur">
+            <div>설 선물특가 실시간 랭킹🔥</div>
+            <div><span class="material-symbols-outlined c1-icon">arrow_forward_ios</span></div>
+        </div>
+        <div class="c1-detail sub-color2">지금 주목해야할 인기 상품 최대 79% 할인</div>
+        <div class="product-sub-container1">
+            <div class="sc1-product cur">
+                <div class="sc1-img">
+                    <img src="library/img/product-img-1.jpg" class="sc1-img-d" alt="상품1">
+                </div>
+                <div>
+                    <button class="sc-btn1 cur">
+                        <div><img src="library/img/cart-icon.png" class="sc1-cart" alt="cart"></div>
+                        <div class="sc-btn1-f">담기</div>
+                    </button>
+                </div>
+                <div class="sc1-title">[선물세트] 횡성축협한우 1++ 프리미엄세트 1호 (냉장)</div>
+                <div class="sc1-ori-price sub-color2">259,000원</div>
+                <div class="sc1-price">
+                    <div class="sc1-p-percent discount-color">15%</div>
+                    <div class="sc1-p-price">219,000원</div>
+                </div>
+                <div  class="sc1-comment">
+                    <div class="sc1-c-icon"><span class="material-symbols-outlined sub-color2">sms</span></div>
+                    <div class="sc1-c-count sub-color2">86</div>
+                </div>
+            </div>
+            <div class="sc1-product cur">
+                <div class="sc1-img">
+                    <img src="library/img/product-img-2.jpg" class="sc1-img-d" alt="상품1">
+                </div>
+                <div>
+                    <button class="sc-btn1 cur">
+                        <div><img src="library/img/cart-icon.png" class="sc1-cart" alt="cart"></div>
+                        <div class="sc-btn1-f">담기</div>
+                    </button>
+                </div>
+                <div class="sc1-title"> [랑콤] 레네르지 탄력 광채크림 50ml 설 선물세트 (+4종 디럭스 샘플 증정)(마이뷰티박스 가입일 구매 시 +3% 적립)</div>
+                <div class="sc1-ori-price sub-color2">259,000원</div>
+                <div class="sc1-price">
+                    <div class="sc1-p-percent discount-color">15%</div>
+                    <div class="sc1-p-price">219,000원</div>
+                </div>
+                <div  class="sc1-comment">
+                    <div class="sc1-c-icon"><span class="material-symbols-outlined sub-color2">sms</span></div>
+                    <div class="sc1-c-count sub-color2">86</div>
+                </div>
+            </div>
+            <div class="sc1-product cur">
+                <div class="sc1-img">
+                    <img src="library/img/product-img-3.jpg" class="sc1-img-d" alt="상품1">
+                </div>
+                <div>
+                    <button class="sc-btn1 cur">
+                        <div><img src="library/img/cart-icon.png" class="sc1-cart" alt="cart"></div>
+                        <div class="sc-btn1-f">담기</div>
+                    </button>
+                </div>
+                <div class="sc1-title">[선물세트][정관장] 홍삼정 에브리타임 밸런스 (30일분) + (쇼핑백증정)</div>
+                <div class="sc1-ori-price sub-color2">259,000원</div>
+                <div class="sc1-price">
+                    <div class="sc1-p-percent discount-color">15%</div>
+                    <div class="sc1-p-price">219,000원</div>
+                </div>
+                <div  class="sc1-comment">
+                    <div class="sc1-c-icon"><span class="material-symbols-outlined sub-color2">sms</span></div>
+                    <div class="sc1-c-count sub-color2">86</div>
+                </div>
+            </div>
+            <div class="sc1-product cur">
+                <div class="sc1-img">
+                    <img src="library/img/product-img-4.jpg" class="sc1-img-d" alt="상품1">
+                </div>
+                <div>
+                    <button class="sc-btn1 cur">
+                        <div><img src="library/img/cart-icon.png" class="sc1-cart" alt="cart"></div>
+                        <div class="sc-btn1-f">담기</div>
+                    </button>
+                </div>
+                <div class="sc1-title">
+                    [선물세트] 유명산지 사과세트 3.8kg (15입)
+                </div>
+                <div class="sc1-ori-price sub-color2">259,000원</div>
+                <div class="sc1-price">
+                    <div class="sc1-p-percent discount-color">15%</div>
+                    <div class="sc1-p-price">219,000원</div>
+                </div>
+                <div  class="sc1-comment">
+                    <div class="sc1-c-icon"><span class="material-symbols-outlined sub-color2">sms</span></div>
+                    <div class="sc1-c-count sub-color2">86</div>
+                </div>
+            </div>
+
+
+        </div>
+    </article>
+</main>
+
+<!-- footer -->
+<footer>
+    <div class="early-rabbit">
+        <div class="er-detail">
+            <div class="er-title">@ELICE CLOUD TRACK 2기</div>
+            <div class="er-member">권예지 선주영 윤수민 이윤희</div>
+        </div>
+        <div class="er-since">since 2023.12.25</div>
+    </div>
+</footer>
 
 </body>
 </html>
