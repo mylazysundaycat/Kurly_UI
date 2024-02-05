@@ -274,9 +274,19 @@ body {
     padding-top: 8px;
     padding-right: 5px;
 }
-.sc1-title{
+.sc1-title {
     padding-top: 5px;
     padding-bottom: 6px;
+    width: 250px;
+    height: 45px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    letter-spacing: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
 }
 
 .sc1-ori-price{
