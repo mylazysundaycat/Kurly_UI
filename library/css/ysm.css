@@ -10,14 +10,14 @@
 }
 
 
-.order{
+.Order_page-order{
     width: 1050px;
     height: 36px;
     margin : 50px auto 0 auto;
     padding-bottom: 48px;
     text-align: center;
 }
-.text_order{
+.Order_page-text_order{
     font-weight: bold;
     font-size: 28px;
     line-height: 36px;
@@ -25,7 +25,7 @@
     font-family: "noto sans", sans-serif;
 }
 
-.order_obj{
+.Order_page-order_obj{
     width: 1050px;
     height: 62px;
     margin: 0 auto 28px auto;
@@ -33,16 +33,16 @@
     display: flex;
     font-weight: bold;
 }
-.text_order_obj{
+.Order_page-text_order_obj{
     font-size: 20px;
     padding: 16px 0;
     font-weight: bold;
     color: rgb(51, 51, 51);
     line-height: 29px;
 }
-.plus{ font-size: 30px; }
+.Order_page-plus{ font-size: 30px; }
 
-.order_list{
+.Order_page-order_list{
     width: 1050px;
     height: 52px;
     font-weight: bold;
@@ -52,7 +52,7 @@
     text-align: center;
     border-bottom: 1px solid rgb(244, 244, 244);
 }
-.p_logo{
+.Order_page-p_logo{
     width: 15px;
     height: 15px;
     margin : 0 0 0 930px;
@@ -60,7 +60,7 @@
     cursor: pointer;
 }
 
-.order_info{
+.Order_page-order_info{
     width: 1050px;
     height: 46px;
     margin: 75px auto 0 auto;
@@ -69,74 +69,74 @@
     border-bottom: 1px solid rgb(51, 51, 51);
     font-size: 20px;
 }
-.order_info_details{
+.Order_page-order_info_details{
     width: 1050px;
     height: 163px;
     margin: 10px auto 10px auto;
 }
 
-.one{
+.Order_page-one{
     width: 1050px;
     height: 40px;
     display: flex;
     padding-top: 8px;
     font-size: 14px;
 }
-.name {
+.Order_page-name {
     margin: 0 0 0 60px;
     font-size: 14px;
 }
 
-.two{
+.Order_page-two{
     width: 1050px;
     height: 40px;
     display: flex;
     padding-top: 8px;
     font-size: 14px;
 }
-.phone{
+.Order_page-phone{
     margin: 0 0 0 80px;
     font-size: 14px;
 }
 
-.three{
+.Order_page-three{
     width: 1050px;
     height: 84px;
     display: flex;
     padding-top: 8px;
     font-size: 14px;
 }
-.email{
+.Order_page-email{
     margin: 0 0 5px 80px;
     font-size: 14px;
 }
 
-.sub1{
+.Order_page-sub1{
     margin: 0 0 0 80px;
     font-size: 12px;
     line-height: 21px;
     color: rgb(102, 102, 102);
 }
-.sub2{
+.Order_page-sub2{
     margin: 0 0 0 80px;
     font-size: 12px;
     line-height: 21px;
     color: rgb(102, 102, 102);
 }
 
-.delivery_info{
+.Order_page-delivery_info{
     font-weight: bold;
     width: 1050px;
     height: 62px;
     margin: 75px auto 0 auto;
     border-bottom: 1px solid rgb(51, 51, 51);
 }
-.delivery_info_text{
+.Order_page-delivery_info_text{
     padding-top: 16px;
     font-size: 20px;
 }
 
-.delivery_to{
+.Order_page-delivery_to{
     width: 1050px;
     height: 45px;
     margin:0 auto;
@@ -145,18 +145,18 @@
     display: flex;
     border-bottom: 1px solid rgb(244, 244, 244);
 }
-.place{
+.Order_page-place{
     padding-top: 20px;
     margin-right: 30px;
     width : 160px;
     height: 24px;
 }
-.address{
+.Order_page-address{
     height: 24px;
     padding-top: 20px;
 }
 
-.delivery_request{
+.Order_page-delivery_request{
     width: 1050px;
     height: 74px;
     padding-top: 20px;
@@ -164,19 +164,19 @@
     font-size: 14px;
     display: flex;
 }
-.text_request{
+.Order_page-text_request{
     height: 24px;
     width: 160px;
     margin-right: 30px;
     line-height: 24px;
 }
 
-.request_details{
+.Order_page-request_details{
     height: 24px;
     color: rgb(240, 63, 64);
     line-height: 24px;
 }
-.input{
+.Order_page-input{
     width: 60px;
     height: 26px;
     padding-top: 4px;
@@ -188,35 +188,35 @@
     font-size: 12px;
     cursor: pointer;
 }
-.input_text{
+.Order_page-input_text{
     display: inline-block;
 
 }
 
-.center{
+.Order_page-center{
     width: 1050px;
     height: 2153px;
     display: flex;
     margin: 0 auto;
 }
-.left{
+.Order_page-left{
     width: 742px;
     height: 2184px;
     margin-right: 24px;
 }
-.right{
+.Order_page-right{
     width: 284px;
     height: 2184px;
 }
 
-.sum_title{
+.Order_page-sum_title{
     font-weight: bold;
     width: 284px;
     height: 45px;
     padding-top: 16px;
     font-size: 20px;
 }
-.sum_details{
+.Order_page-sum_details{
     width: 250px;
     height: 375px;
     background: rgb(250, 250, 250);
@@ -224,45 +224,45 @@
     padding: 17px 16px 18px 18px;
 }
 
-.order_sum{
+.Order_page-order_sum{
     display: flex;
     margin-bottom: 12px;
     font-size: 16px;
 }
-.order_sum2{
+.Order_page-order_sum2{
     display: flex;
     margin-top: 8px;
     font-size: 14px;
     color: #999999;
 }
-.order_sum3{
+.Order_page-order_sum3{
     display: flex;
     margin-top: 8px;
     font-size: 14px;
     color: #999999;
 }
-.order_sum4{
+.Order_page-order_sum4{
     display: flex;
     width: 248px;
     height: 21px;
     margin-top: 16px;
     font-size: 16px;
 }
-.order_sum5{
+.Order_page-order_sum5{
     display: flex;
     width: 248px;
     height: 21px;
     margin-top: 16px;
     font-size: 16px;
 }
-.order_sum6{
+.Order_page-order_sum6{
     display: flex;
     width: 248px;
     height: 21px;
     margin-top: 16px;
     font-size: 16px;
 }
-.order_sum7{
+.Order_page-order_sum7{
     display: flex;
     width: 248px;
     height: 21px;
@@ -270,7 +270,7 @@
     font-size: 16px;
     margin-bottom: 4px;
 }
-.order_sum8{
+.Order_page-order_sum8{
     display: flex;
     width: 248px;
     height: 20px;
@@ -278,7 +278,7 @@
     font-size: 14px;
     color: #999999;
 }
-.order_sum9{
+.Order_page-order_sum9{
     display: flex;
     width: 248px;
     height: 20px;
@@ -287,53 +287,53 @@
     color: #999999;
 }
 
-.order_sum_text{
+.Order_page-order_sum_text{
     width:120px;
     height: 20px;
     margin-right: 57px;
 }
-.order_sum_text2{
+.Order_page-order_sum_text2{
     width: 130px;
     height: 20px;
     margin-right: 56px;
 }
-.order_sum_text3{
+.Order_page-order_sum_text3{
     width: 130px;
     height: 20px;
     margin-right: 50px;
 }
-.order_sum_text4{
+.Order_page-order_sum_text4{
     width: 100px;
     height: 21px;
     margin-right: 123px;
 }
-.order_sum_text5{
+.Order_page-order_sum_text5{
      width: 100px;
      height: 21px;
      margin-right: 123px;
 }
-.order_sum_text6{
+.Order_page-order_sum_text6{
     width: 100px;
     height: 21px;
     margin-right: 123px;
 }
-.order_sum_text7{
+.Order_page-order_sum_text7{
     width: 120px;
     height: 21px;
     margin-right: 103px;
 }
-.order_sum_text8{
+.Order_page-order_sum_text8{
     width: 120px;
     height: 20px;
     margin-right: 105px;
 }
-.order_sum_text9{
+.Order_page-order_sum_text9{
     width: 120px;
     height: 20px;
     margin-right: 105px;
 }
 
-.sum{
+.Order_page-sum{
     width: 248px;
     height: 27px;
     margin-top: 16px;
@@ -342,29 +342,29 @@
     display: flex;
     border-top: 1px solid rgb(244, 244, 244);
 }
-.sum_last{
+.Order_page-sum_last{
     width: 120px;
     height: 25px;
     margin-right: 50px;
 }
-.bonus{
+.Order_page-bonus{
     font-size: 12px;
     color: #8D4CC4;
     margin-top: 6px;
     text-align: right;
 }
-.last_img{
+.Order_page-last_img{
     width: 284px;
     height: 36px;
 }
 
-.coupon{
+.Order_page-coupon{
     width: 742px;
     height: 62px;
     margin-top: 60px;
     border-bottom: 1px solid rgb(51, 51, 51);
 }
-.coupon_text{
+.Order_page-coupon_text{
     font-weight: bold;
     font-size: 20px;
     padding-top: 16px;
@@ -372,23 +372,23 @@
     line-height: 29px;
 }
 
-.coupon_apply{
+.Order_page-coupon_apply{
     width: 742px;
     height: 133px;
     padding-top: 20px;
     display: flex;
 }
-.coupon_apply_text{
+.Order_page-coupon_apply_text{
     margin-top: 12px;
     width: 160px;
     height: 133px;
     margin-right: 30px;
 }
-.coupon_apply_right{
+.Order_page-coupon_apply_right{
     width: 552px;
     height: 133px;
 }
-.coupon_apply_right_top{
+.Order_page-coupon_apply_right_top{
     margin-top: 12px;
     display: flex;
     width: 536px;
@@ -397,19 +397,19 @@
     border: 1px solid rgb(221, 221, 221);
     cursor: pointer;
 }
-.coupon_apply_right_top_text{
+.Order_page-coupon_apply_right_top_text{
     font-size: 14px;
     width : 510px;
     margin-top: 8px;
 }
 
-.coupon_icon {
+.Order_page-coupon_icon {
     cursor: pointer;
     width: 22px;
     height: 16px;
     margin-top: 10px;
 }
-.coupon_apply_right_center{
+.Order_page-coupon_apply_right_center{
     width: 552px;
     height: 36px;
     font-size: 12px;
@@ -417,14 +417,14 @@
     padding-top: 8px;
     cursor: pointer;
 }
-.coupon_img{
+.Order_page-coupon_img{
     border-top: 1px solid rgb(244, 244, 244);
     width:550px;
     height:42px;
     cursor: pointer;
 }
 
-.card{
+.Order_page-card{
     width: 742px;
     height: 46px;
     margin-top: 75px;
@@ -432,44 +432,44 @@
     font-size: 20px;
     font-weight: bold
 }
-.discount{
+.Order_page-discount{
     width: 742px;
     height: 65px;
     padding-top: 20px;
     border-top: 1px solid rgb(51, 51, 51);
     display: flex;
 }
-.discount_text{
+.Order_page-discount_text{
     width: 160px;
     height: 65px;
     margin-right: 30px;
     margin-top: 12px;
     display: flex;
 }
-.discount_details{
+.Order_page-discount_details{
     margin-top: 12px;
 }
 
-.first_text{
+.Order_page-first_text{
     width: 200px;
     height: 16px;
     margin-bottom: 10px;
     font-size: 14px;
     font-weight: 500;
 }
-.discount_apply{
+.Order_page-discount_apply{
     display:flex;
     font-size: 14px;
     color: rgb(153, 153, 153);
     cursor: pointer;
 }
-.check_img{
+.Order_page-check_img{
     width: 23px;
     height: 23px;
     color: rgb(153, 153, 153);
     cursor: pointer;
 }
-.button{
+.Order_page-button{
     width: 100px;
     height: 34px;
     background-color: #5F0080;
@@ -483,7 +483,7 @@
     cursor: pointer;
 }
 
-.cache_title{
+.Order_page-cache_title{
     width: 742px;
     margin-top: 75px;
     display: flex;
@@ -493,20 +493,20 @@
     font-weight: bold;
     border-bottom: 1px solid rgb(51, 51, 51);
 }
-.question{
+.Order_page-question{
     margin-top: 6px;
     margin-left: 10px;
     width:14px;
     height: 14px;
 }
-.cache_place{
+.Order_page-cache_place{
     display: flex;
     width: 742px;
     height: 210px;
     padding-top: 20px;
 }
 
-.cache_left{
+.Order_page-cache_left{
     width: 160px;
     height: 197px;
     margin-right: 30px;
@@ -514,92 +514,99 @@
     font-size: 14px;
     font-weight: 500;
 }
-.cache_right{
+.Order_page-cache_right{
     width: 552px;
     height: 210px;
 }
 
-.usable{
+.Order_page-usable{
     width: 414px;
     height: 89px;
     padding: 13px 0 8px 0;
     font-size: 14px;
-    color: #B5B5B5;
 }
-.usable_one{
+.Order_page-usable_one{
     display: flex;
     width: 414px;
     height: 28px;
 }
-.usable_one_text{
-    width: 350px;
-    height: 25px;
-    margin-right: 40px;
+.Order_page-usable_one_text{
+    width: 500px;
+    height: 28px;
+    margin-right: 50px;
 }
-.usable_two{
+.Order_page-use_1{
+    width: 100px;
+}
+.Order_page-usable_two{
     display: flex;
     padding: 8px 0 8px 0;
     width: 414px;
     height: 17px;
 }
-.usable_two_text{
-    width: 350px;
+.Order_page-usable_two_text{
+    width: 414px;
     height: 25px;
     margin-right: 40px;
 }
-.usable_three{
+.Order_page-use_2{
+    width: 80px;
+}
+.Order_page-usable_three{
     display: flex;
     width: 414px;
     height: 28px;
+    color: rgb(221, 221, 221);
 }
-.usable_three_text{
+.Order_page-usable_three_text{
     width: 350px;
     height: 25px;
-    margin-right: 40px;
+    margin-right: 30px;
+    color: rgb(221, 221, 221);
 }
 
-.use_all{
+.Order_page-use_all{
     display: flex;
     width: 552px;
     height: 44px;
 }
-.zero{
+.Order_page-zero{
     width: 306px;
     height: 33px;
     opacity: 1;
     padding-top: 11px;
-    background-color: rgb(240, 240, 240);
+    background-color: white;
     margin-right: 8px;
     border-radius: 3px;
     border : 1px solid rgb(221, 221, 221);
 }
-.zero_text{
+.Order_page-use_point_text{
     width: 20px;
     padding-left: 11px;
     font-size: 14px;
     color: #B5B5B5;
 }
-.use_all_text{
+.Order_page-use_all_text{
     width: 100px;
     height: 34px;
     text-align: center;
     padding-top: 10px;
-    color: rgb(221, 221, 221);
+
     border-radius: 3px;
     border : 1px solid rgb(221, 221, 221);
 }
-.text1{
+.Order_page-text1{
     font-size: 12px;
     color: #868686;
     margin-top: 10px;
 }
-.text2{
+.Order_page-text2{
     font-size: 12px;
     color: #868686;
     margin-top: 4px;
 }
 
-.pay_title{
+.Order_page-pay_title{
     width: 742px;
     height: 45px;
     margin-top: 75px;
@@ -609,36 +616,36 @@
     border-bottom: 1px solid;
     font-weight: bold;
 }
-.pay_place{
+.Order_page-pay_place{
     width: 742px;
     height: 604px;
     padding-top: 20px;
     display: flex;
 }
 
-.pay_left{
+.Order_page-pay_left{
     width: 160px;
     height: 604px;
     margin-right: 30px;
     margin-top: 8px;
 }
-.pay_right{
+.Order_page-pay_right{
     width: 552px;
     height: 604px;
 }
 
-.kao{
+.Order_page-kao{
     width: 414px;
     height: 48px;
     background-color: #F6E500;
     border-radius: 3px;
     cursor: pointer;
 }
-.kao_img{
+.Order_page-kao_img{
     margin-top:14px ;
     margin-left: 181px;
 }
-.kur_pay{
+.Order_page-kur_pay{
     display: flex;
     width: 414px;
     height: 48px;
@@ -647,18 +654,18 @@
     margin-top: 12px;
     border-bottom: none;
 }
-.kur_img{
+.Order_page-kur_img{
     margin-top: 10px;
     margin-left: 162px;
     height: 28px;
 }
-.kur_text{
+.Order_page-kur_text{
     color: #5F0080;
     margin-top: 8px;
     font-size: 18px;
     font-weight: bold;
 }
-.choice{
+.Order_page-choice{
     width: 414px;
     height: 146px;
     padding-top: 24px;
@@ -666,7 +673,7 @@
     border-bottom: none;
 
 }
-.main_choice{
+.Order_page-main_choice{
     width: 206px;
     height: 130px;
     margin: 0 auto;
@@ -674,7 +681,7 @@
     border-radius: 6px;
     border: 1px solid rgb(234, 214, 245);
 }
-.choice_text{
+.Order_page-choice_text{
     font-size: 14px;
     color: #333333;
     width: 140px;
@@ -682,7 +689,7 @@
     margin-top: 20px;
     margin-left:35px;
 }
-.choice_button{
+.Order_page-choice_button{
     width: 102px;
     height: 26px;
     border-radius: 20px;
@@ -694,7 +701,7 @@
     padding-top: 10px;
     cursor: pointer;
 }
-.pay_text{
+.Order_page-pay_text{
     width: 414px;
     height: 40px;
     padding-top: 12px;
@@ -706,14 +713,14 @@
     font-weight: bold;
 }
 
-.three_choice{
+.Order_page-three_choice{
     display: flex;
     font-size: 14px;
     font-weight: bold;
     text-align: center;
     margin-top: 12px;
 }
-.three_choice_one{
+.Order_page-three_choice_one{
     width: 138px;
     height: 35px;
     border-radius: 3px 0 0 3px;
@@ -721,7 +728,7 @@
     padding-top: 13px;
     cursor: pointer;
 }
-.three_choice_two{
+.Order_page-three_choice_two{
     width: 138px;
     height: 35px;
     padding-top: 13px;
@@ -730,7 +737,7 @@
     border-left: none;
     cursor: pointer;
 }
-.three_choice_three{
+.Order_page-three_choice_three{
     width: 138px;
     height: 35px;
     padding-top: 13px;
@@ -739,7 +746,7 @@
     cursor: pointer;
 }
 
-.benefit_info{
+.Order_page-benefit_info{
     width: 398px;
     height: 176px;
     margin-top: 20px;
@@ -747,53 +754,53 @@
     padding-left: 20px;
     background-color: rgb(250, 250, 250);
 }
-.benefit_info_top{
+.Order_page-benefit_info_top{
     width: 374px;
     height: 18px;
     display: flex;
     font-size: 13px;
 }
 
-.benefit_info_top_text{
+.Order_page-benefit_info_top_text{
     width: 100px;
     margin-right: 155px;
 }
-.benefit_info_top_text2{
+.Order_page-benefit_info_top_text2{
     color: rgb(153, 153, 153);
 }
 
-.pay_text1{
+.Order_page-pay_text1{
     font-size: 13px;
     color:#FA622F;
     width: 374px;
     height: 22px;
     margin-top: 16px;
 }
-.pay_text2{
+.Order_page-pay_text2{
     font-size: 13px;
     width: 374px;
     height: 20px;
     color: #4C4C4C;
 }
-.pay_text3{
+.Order_page-pay_text3{
     font-size: 11px;
     width: 374px;
     height: 18px;
     color: #999999;
 }
-.pay_text4{
+.Order_page-pay_text4{
     font-size: 11px;
     color:#999999;
     width: 374px;
     height: 18px;
 }
-.pay_text5{
+.Order_page-pay_text5{
     font-size: 11px;
     width: 374px;
     height: 18px;
     color: #999999;
 }
-.more{
+.Order_page-more{
     margin: 11px auto 0 auto;
     font-size: 14px;
     text-align: center;
@@ -801,7 +808,7 @@
     cursor: pointer;
 }
 
-.pay_bottom{
+.Order_page-pay_bottom{
     font-weight: bold;
     width: 742px;
     height: 37px;
@@ -811,7 +818,7 @@
     color: #666666;
     border-top: 1px solid rgb(244, 244, 244);;
 }
-.personal{
+.Order_page-personal{
     font-weight: bold;
     width: 742px;
     height: 46px;
@@ -820,84 +827,84 @@
     font-size: 20px;
     border-bottom: 1px solid;
 }
-.personal_main{
+.Order_page-personal_main{
     width: 742px;
     height: 143px;
     padding-top: 20px;
     margin-bottom: 20px;
     border-bottom: 1px solid rgb(244, 244, 244);
 }
-.personal_main1{
+.Order_page-personal_main1{
     display: flex;
 }
-.personal_text1{
+.Order_page-personal_text1{
     width: 250px;
     height: 19px;
     font-size: 14px;
     margin-right: 460px;
 }
-.personal_text1_right{
+.Order_page-personal_text1_right{
     font-size: 14px;
     color: rgb(153, 153, 153);
     text-decoration: underline;
     cursor: pointer;
 }
 
-.personal_main2{
+.Order_page-personal_main2{
     display: flex;
     padding-top: 12px;
 }
-.personal_text2{
+.Order_page-personal_text2{
     width: 250px;
     height: 19px;
     font-size: 14px;
     margin-right: 460px;
 }
-.personal_text2_right{
+.Order_page-personal_text2_right{
     font-size: 14px;
     color: rgb(153, 153, 153);
     text-decoration: underline;
     cursor: pointer;
 }
 
-.personal_main3{
+.Order_page-personal_main3{
     display: flex;
     padding-top: 12px;
 }
-.personal_text3{
+.Order_page-personal_text3{
     width: 300px;
     height: 19px;
     font-size: 14px;
     margin-right: 410px;
 }
-.personal_text3_right{
+.Order_page-personal_text3_right{
     font-size: 14px;
     color: rgb(153, 153, 153);
     text-decoration: underline;
     cursor: pointer;
 }
-.personal_main_bottom{
+.Order_page-personal_main_bottom{
     width: 742px;
     height: 21px;
     font-size: 20px;
     padding-top: 20px;
 }
 
-.personal_bottom{
+.Order_page-personal_bottom{
     width: 742px;
     height: 36px;
     font-size: 11px;
     color: #666666;
     font-weight: bold;
 }
-.personal_bottom_two{
+.Order_page-personal_bottom_two{
     margin-top: 3px;
     width: 742px;
     height: 36px;
     font-size: 11px;
     color: #666666;
 }
-.pay_button{
+.Order_page-pay_button{
     width: 240px;
     height: 38px;
     margin: 40px 251px 30px;
@@ -911,7 +918,7 @@
     cursor: pointer;
 }
 
-.bottom{
+.Order_page-bottom{
     clear: both;
     width: 1050px;
     height: 326px;
@@ -921,40 +928,40 @@
     border-top : 1px solid rgb(244, 244, 244);
     border-bottom: 1px solid rgb(244, 244, 244);
 }
-.bottom_left{
+.Order_page-bottom_left{
     width: 440px;
     height: 326px;
     margin-right: 88px;
 }
-.customer_center{
+.Order_page-customer_center{
     width: 440px;
     height: 29px;
     padding-bottom: 17px;
     font-size: 20px;
 }
-.number{
+.Order_page-number{
     width: 440px;
     height: 44px;
     padding-bottom: 20px;
     display: flex;
 }
-.number_text{
+.Order_page-number_text{
     font-size: 28px;
     margin-right: 8px;
 }
-.time{
+.Order_page-time{
     width: 230px;
     height: 20px;
     margin-left: 8px;
     font-size: 16px;
     padding-top: 20px;
 }
-.kao_inquiry{
+.Order_page-kao_inquiry{
     width: 440px;
     height: 56px;
     display: flex;
 }
-.kao_talk{
+.Order_page-kao_talk{
     width: 140px;
     height: 30px;
     padding-top: 10px;
@@ -965,16 +972,16 @@
     border-radius: 3px;
     cursor: pointer;
 }
-.kao_time{
+.Order_page-kao_time{
     font-size: 14px;
     color: #999;
 }
-.one_inquiry{
+.Order_page-one_inquiry{
     width: 440px;
     height: 56px;
     display: flex;
 }
-.one_talk{
+.Order_page-one_talk{
     width: 140px;
     height: 30px;
     padding-top: 10px;
@@ -985,17 +992,17 @@
     border-radius: 3px;
     cursor: pointer;
 }
-.one_time{
+.Order_page-one_time{
     font-size: 14px;
     letter-spacing: -2px;
     color: #999;
 }
-.large_inquiry{
+.Order_page-large_inquiry{
     width: 440px;
     height: 56px;
     display: flex;
 }
-.large_talk{
+.Order_page-large_talk{
     width: 140px;
     height: 30px;
     padding-top: 10px;
@@ -1006,59 +1013,59 @@
     border-radius: 3px;
     cursor: pointer;
 }
-.large_time{
+.Order_page-large_time{
     font-size: 14px;
     color: #999;
 }
-.no_customer{
+.Order_page-no_customer{
     font-size: 12px;
     color: #999999;
 }
 
-.bottom_right{
+.Order_page-bottom_right{
     width: 522px;
     height: 296px;
 }
-.info{
+.Order_page-info{
     width: 522px;
     height: 18px;
     padding-bottom: 29px;
     font-size: 14px;
 }
-.info_two{
+.Order_page-info_two{
     margin-bottom: 40px;
     font-size: 12px;
     color: #666666;
 }
-.images{
+.Order_page-images{
     display: flex;
 }
-.instagram{
+.Order_page-instagram{
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
-.fb{
+.Order_page-fb{
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
-.blog{
+.Order_page-blog{
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
-.post{
+.Order_page-post{
     width: 30px;
     height: 30px;
     margin-right: 10px;
 }
-.youtube{
+.Order_page-youtube{
     width: 30px;
     height: 30px;
 }
 
-.bottom2{
+.Order_page-bottom2{
     width: 1050px;
     height: 44px;
     margin: 0 auto;
@@ -1068,48 +1075,48 @@
     color: #999999;
     border-top: 1px solid #eee;
 }
-.isms{
+.Order_page-isms{
     width: 34px;
     height: 34px;
     margin-right: 10px;
 }
-.isms_text{
+.Order_page-isms_text{
     width: 300px;
     height: 44px;
     letter-spacing: -1px;
 }
-.privacy{
+.Order_page-privacy{
     width: 34px;
     height: 34px;
     margin-right: 10px;
 }
-.privacy_text{
+.Order_page-privacy_text{
     width: 320px;
     height: 44px;
     letter-spacing: -1px;
 }
-.payments{
+.Order_page-payments{
     width: 102px;
     height: 32px;
     margin-right: 10px;
 }
-.payments_text{
+.Order_page-payments_text{
     width: 240px;
     height: 44px;
     letter-spacing: -1px;
 }
-.bank{
+.Order_page-bank{
     width: 34px;
     height: 34px;
     margin-right: 10px;
 }
-.bank_text{
+.Order_page-bank_text{
     width: 300px;
     height: 44px;
     letter-spacing: -1px;
 }
 
-.footer{
+.Order_page-footer{
     background-color: #f7f7f7;
     width: 100%;
     height: 52px;
