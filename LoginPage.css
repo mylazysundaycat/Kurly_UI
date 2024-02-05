@@ -30,7 +30,7 @@ div .find{
 
 }
 
-input[name="user_id"] {
+input[name="login_id"] {
     width: 340px;
     height: 54px;
     border-radius: 5px;
@@ -41,7 +41,7 @@ input[name="user_id"] {
     margin-bottom: 10px;
 }
 
-input[name="user_pw"] {
+input[name="login_pw"] {
     width: 340px;
     height: 54px;
     border-radius: 5px;
@@ -65,7 +65,7 @@ main a.find_pw{
 }
 
 
-main #login {
+main #login_click {
     background: #5F0080;
     color: #FFFFFF;
 
@@ -80,7 +80,7 @@ main #login {
 
 
 }
-main a.join {
+main a.join_click {
     background: #FFFFFF;
     color: #5F0080;
 
@@ -88,7 +88,7 @@ main a.join {
 
     border-radius: 5px;
     border: 2px solid #5F0080;
-    margin: 0 auto;
+    margin: 0 auto 60px auto;
     width: 340px;
     height: 50px;
     display: block;
