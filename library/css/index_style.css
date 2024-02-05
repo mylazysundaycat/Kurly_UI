@@ -11,7 +11,7 @@ body {
 }
 
 main{
-    margin-bottom: 100px;
+    margin-bottom: 170px;
 }
 
 
@@ -328,6 +328,39 @@ main{
 
 .sc1-c-count{
     font-weight: bold;
+}
+
+.early-rabbit{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    background-color: #ebebeb;
+    padding: 12px 0 8px 0;
+    background-color: #f7f7f7;
+}
+
+.er-title{
+    font-weight: bold;
+    margin-right: 5px;
+    font-size:14px;
+}
+
+.er-since{
+    font-size: 12px;
+    letter-spacing: -0.2px;
+}
+
+.er-detail{
+    display: flex;
+}
+
+.er-team{
+    font-size: 14px;
+}
+
+.er-member{
+    font-size: 14px;
 }
 
 
