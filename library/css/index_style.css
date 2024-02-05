@@ -10,6 +10,10 @@ body {
     margin: 0;
 }
 
+main{
+    margin-bottom: 100px;
+}
+
 
 .benefit-banner {
     background-color: #5F0080;
@@ -186,9 +190,11 @@ body {
 }
 
 
-
 .main-banner{
+    overflow: hidden;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 /*상품 컨테이너*/
