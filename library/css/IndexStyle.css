@@ -17,9 +17,33 @@ main{
 
 .benefit-banner {
     background-color: #5F0080;
-    padding: 8px 0 8px 0;
+    font-size: 14px;
     text-align: center;
-    font-size: 13px;
+    transition: margin 0.4s linear 0s;
+    background-color: rgb(95, 0, 128);
+}
+
+.bb-container1{
+    position: relative;
+    width: 1130px;
+    margin: 0px auto;
+}
+
+.bb-text{
+    height: 42px;
+    display: block;
+    font-size: 14px;
+    line-height: 42px;
+}
+.bb-x-icon {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 42px;
+    height: 42px;
+    background-color: transparent;
+    border: none;
+    color: white;
 }
 
 
