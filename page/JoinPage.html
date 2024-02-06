@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>회원가입 - 컬리</title>
+    <link rel="stylesheet" href="../library/css/JoinPage.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+
+    <style>
+        h1{ /*회원가입 글씨*/
+            margin-top: 322px;
+            font-size: 27px;
+            text-align: center;
+        }
+
+
+        main{
+            position: absolute;
+            left: 144px;
+        }
+
+
+
+        a.star { color: red; } /* 빨간색 별표 */
+
+        a {text-decoration-line: none;}
+
+        div.essential_put{ /* 필수입력사항 상단 안내글 */
+            margin: 30px auto 0 78%;
+            font-size: 12px;
+
+        }
+
+    </style>
+</head>
+<body>
+<div class="joinPage">
+    <h1>회원가입</h1>
+    <div class="essential_put">
+        <a class="star">*</a> <span> 필수입력사항</span>
+    </div>
+
+    <hr/> <!--구분선-->
+    <main>
+        <div class="input_data">
+            <div class="join_ID">
+                <span class="join_title">아이디 </span><a class="star">*</a>
+                <label class="box">
+                    <input type="text" name="join_id" placeholder="  아이디를 입력해주세요." maxlength="20">
+                    <button class="purple" type="submit" id="Check_id">중복확인</button>
+                </label>
+
+            </div>
+
+            <div class="PW">
+                <span class="join_title">비밀번호 </span><a class="star">*</a>
+                <label class="box">
+                    <input type="password" name="join_pw" placeholder="  비밀번호를 입력해주세요." maxlength="20">
+                </label>
+            </div>
+
+
+            <div class="PW_check">
+                <span class="join_title">비밀번호 확인 </span><a class="star">*</a>
+                <label class="box">
+                    <input type="text" name="repeat_pw" placeholder="  비밀번호를 한번 더 입력해주세요." maxlength="20">
+                </label>
+            </div>
+
+            <div class="NAME">
+                <label class="box">
+                    <span class="join_title">이름 </span><a class="star">*</a>
+                    <input type="text" name="join_name" placeholder="  이름을 입력해주세요." >
+                </label>
+            </div>
+
+            <div class="EMAIL">
+                <span class="join_title">이메일 </span><a class="star">*</a>
+                <label class="box">
+                    <input type="email" name="join_email" placeholder="  예 : marketkurly@kurly.com">
+                    <button class="purple" type="submit" id="Check_email">중복확인</button>
+                </label>
+            </div>
+
+            <div class="PHONE">
+                <span class="join_title">휴대폰 </span>
+                <a class="star">*</a>
+                <label class="box">
+                    <input type="tel" name="join_phone" placeholder="  숫자만 입력해주세요.">
+                </label>
+
+                <button class="gray" type="submit" id="Check_phone">인증번호받기</button>
+            </div>
+
+
+            <div class="ADDRESS">
+                <span class="join_title">주소 </span><a class="star">*</a>
+                <button type="button" class="address_search">주소검색</button>
+            </div>
+            <span class="text_address">배송지에 따라 상품 정보가 달라질 수 있습니다.</span>
+
+
+            <div class="GENDER">
+                <span class="join_title">성별</span>
+                <input type="radio" id="gender1" name="gender" value="male" />
+                <label for="gender1">남자</label>
+
+                <input type="radio" id="gender2" name="gender" value="female" />
+                <label for="gender2">여자</label>
+
+                <input type="radio" id="gender3" name="gender" value="none" />
+                <label for="gender3">선택안함</label>
+            </div>
+
+            <div class="BIRTH">
+                <span class="join_title">생년월일 </span>
+                <label>
+                    <input type="number" name="birth" placeholder="YYYY / MM / DD">
+                </label>
+            </div>
+
+            <div class="OTHER">
+                <span class="join_title">추가입력사항</span>
+                <input type="radio" id="other1" name="other" value="recommend" />
+                <label for="other1">친구초대 추천인 아이디</label>
+
+                <input type="radio" id="other2" name="other" value="on_event" />
+                <label for="other2">참여 이벤트명</label>
+            </div>
+
+            <div class="AGREEMENT">
+                <span class="join_title">이용약관 동의</span> <a class="star"> *</a>
+                <input type="checkbox" onclick="checkAll(this)" id="agreement1" name="agreement" value="all" />
+                <label for="agreement1">전체 동의합니다.</label>
+                <br><span class="agreement_text">선택항목에 동의하지 않은 경우도 회원가입 및 일반적인 서비스를 이용할 수 있습니다.</span>
+
+                <br><input type="checkbox" class=join_chk id="agreement2" name="agreement" value="essential" />
+                <label for="agreement2">이용약관 동의 (필수)</label>
+
+                <br><input type="checkbox" class=join_chk id="agreement3" name="agreement" value="personal_infoE" />
+                <label for="agreement3">개인정보 수집ㆍ이용 동의 (필수)</label>
+
+                <div class="AGREEMENT4">
+                    <br><input type="checkbox" class=join_chk id="agreement4" name="agreement" value="personal_infoC" />
+                    <label for="agreement4">개인정보 수집ㆍ이용 동의 (선택)</label>
+
+                    <br><input type="checkbox" class=join_chk id="agreement4_1" name="agreement" value="personal_infoC" />
+                    <label for="agreement4_1">SMS</label>
+                    <input type="checkbox" class=join_chk id="agreement4_2" name="agreement" value="personal_infoC" />
+                    <label for="agreement4_2">이메일</label>
+                </div>
+
+                <br><input type="checkbox" class=join_chk id="agreement5" name="agreement" value="event" />
+                <label for="agreement5">무료배송, 할인쿠폰 등 혜택/정보 수신 동의 (선택)</label>
+
+                <br><input type="checkbox" class=join_chk id="agreement6" name="agreement" value="age" />
+                <label for="agreement6">본인은 만 14세 이상입니다. (필수)</label>
+
+            </div>
+
+            <a href="#" class="join_submit">가입하기</a>
+        </div>
+    </main>
+
+</div>
+
+
+<script type="text/javascript" src="../library/js/JoinPage.js"></script>
+
+</body>
+</html>
