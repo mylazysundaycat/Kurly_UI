@@ -202,31 +202,29 @@ input#gender1, input#gender2, input#gender3, input#other1, input#other2{
     accent-color: #5F0080;
 }
 
-[type="checkbox"]:checked{
+input[type="checkbox"]{
     width: 24px;
     height: 24px;
-
-    accent-color: #5F0080;
 }
-
 /*
-input[type="checkbox"] {
-    display: none;
-    vertical-align: middle;
-    background: url(checkbox.svg);
+input[type="checkbox"]{display:none;}
+
+[type="checkbox"]+label:before {
+    border: 2px solid #D9D9D9;
+    border-radius: 50%;
+    background: url("library/join_checkbox_png");
 
     cursor: pointer;
 
-    background-size: cover;
 }
-
+*/
 [type="checkbox"]:checked{
     width: 24px;
     height: 24px;
 
     accent-color: #5F0080;
 }
-체크박스 원형으로 변경*/
+
 
 label[for="agreement1"] { /*전체동의 굵은글씨*/
      font-size: 18px;

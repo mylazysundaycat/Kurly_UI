@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>회원가입 - 컬리</title>
     <link rel="stylesheet" href="JoinPage.css" />
-    <script src="joinPage.js"></script>
+
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
 
     <style>
@@ -131,30 +131,30 @@
 
     <div class="AGREEMENT">
         <span class="join_title">이용약관 동의</span> <a class="star"> *</a>
-        <input type="checkbox" id="agreement1" name="agreement" value="all" />
+        <input type="checkbox" onclick="checkAll(this)" id="agreement1" name="agreement" value="all" />
         <label for="agreement1">전체 동의합니다.</label>
             <br><span class="agreement_text">선택항목에 동의하지 않은 경우도 회원가입 및 일반적인 서비스를 이용할 수 있습니다.</span>
 
-        <br><input type="checkbox" id="agreement2" name="agreement" value="essential" />
+        <br><input type="checkbox" class=join_chk id="agreement2" name="agreement" value="essential" />
         <label for="agreement2">이용약관 동의 (필수)</label>
 
-        <br><input type="checkbox" id="agreement3" name="agreement" value="personal_infoE" />
+        <br><input type="checkbox" class=join_chk id="agreement3" name="agreement" value="personal_infoE" />
         <label for="agreement3">개인정보 수집ㆍ이용 동의 (필수)</label>
 
         <div class="AGREEMENT4">
-        <br><input type="checkbox" id="agreement4" name="agreement" value="personal_infoC" />
+        <br><input type="checkbox" class=join_chk id="agreement4" name="agreement" value="personal_infoC" />
         <label for="agreement4">개인정보 수집ㆍ이용 동의 (선택)</label>
 
-            <br><input type="checkbox" id="agreement4_1" name="agreement" value="personal_infoC" />
+            <br><input type="checkbox" class=join_chk id="agreement4_1" name="agreement" value="personal_infoC" />
             <label for="agreement4_1">SMS</label>
-            <input type="checkbox" id="agreement4_2" name="agreement" value="personal_infoC" />
+            <input type="checkbox" class=join_chk id="agreement4_2" name="agreement" value="personal_infoC" />
             <label for="agreement4_2">이메일</label>
         </div>
 
-        <br><input type="checkbox" id="agreement5" name="agreement" value="event" />
+        <br><input type="checkbox" class=join_chk id="agreement5" name="agreement" value="event" />
         <label for="agreement5">무료배송, 할인쿠폰 등 혜택/정보 수신 동의 (선택)</label>
 
-        <br><input type="checkbox" id="agreement6" name="agreement" value="age" />
+        <br><input type="checkbox" class=join_chk id="agreement6" name="agreement" value="age" />
         <label for="agreement6">본인은 만 14세 이상입니다. (필수)</label>
 
     </div>
@@ -166,7 +166,7 @@
     </div>
 
 
-
+    <script type="text/javascript" src="JoinPage.js"></script>
 
 </body>
 </html>
