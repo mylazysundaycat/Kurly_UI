@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <title>로그인 - 컬리</title>
     <link rel="stylesheet" href="../library/css/LoginPage.css" />
+    <script defer src="../library/js/LoginPage.js"></script>
+
     <style>
         h1{
             text-align: center;
@@ -17,34 +19,45 @@
 <body>
 <h1>로그인</h1>
 <main>
-    <ul class='input_box'>
-        <li>
-            <p>
-                <label><!--최대길이를 20으로 제한-->
-                    <input type="text" name="login_id" placeholder="   아이디를 입력해주세요." maxlength="20">
-                </label>
-            </p>
+    <div class='input_box'>
 
-        </li>
-        <li>
-            <p>
                 <label><!--최대길이를 20으로 제한-->
-                    <input type="text" name="login_pw" placeholder="   비밀번호를 입력해주세요." maxlength="20">
+                    <input type="text" name="login_id" id="login_id" placeholder="   아이디를 입력해주세요." maxlength="20">
                 </label>
-            </p>
-        </li>
-    </ul>
+
+
+                <label><!--최대길이를 20으로 제한-->
+                    <input type="password" name="login_pw" id="login_pw" placeholder="   비밀번호를 입력해주세요." maxlength="20">
+                </label>
+
+    </div>
+
     <div class="find">
         <a href="#" class="find_id">아이디 찾기 </a><a>|</a><a href="#" class="find_pw"> 비밀번호 찾기</a>
     </div>
-    <button type="submit" id="login_click">로그인</button>
-    <div>
-        <a href="#" class="join_click">회원가입</a>
+
+    <div id="login_null" class="login_alert" style="display: none;">
+        아이디와 패스워드를 입력하세요.
     </div>
+
+    <div id="login_error" class="login_alert" style="display: none;">
+        아이디와 패스워드를 확인하세요.
+    </div>
+
+    <div id="login_success" class="login_alert" style="display: none;">
+        안녕하세요, early rabbit님, 로그인 되었습니다.
+    </div>
+
+    <button type="button" id="login_click">로그인</button>
+
+        <a href="../page/JoinPage.html" class="join_click">회원가입</a>
+
 
 </main>
 
-<script type="text/javascript" src="../library/js/LoginPage.js"></script>
+<script>
 
+
+</script>
 </body>
 </html>

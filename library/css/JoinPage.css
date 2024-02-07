@@ -32,6 +32,11 @@ span.join_title{ /*항목이름*/
     margin-left: 260px;
 }
 
+.border-color:focus {
+    border-color: #D9D9D9;
+    outline: none;
+}
+
 
 button.purple{ /*중복확인*/
     background: #FFFFFF;
@@ -77,6 +82,8 @@ input[name="join_id"] { /*아이디*/
     display: inline-block;
     margin-top: 30px;
     margin-left: 80px;
+    text-indent: 10px;
+    font-size: 15px;
 }
 
 input[name="join_pw"] { /*비밀번호*/
@@ -85,9 +92,29 @@ input[name="join_pw"] { /*비밀번호*/
     border-radius: 5px;
     border: 1px solid #D9D9D9;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 64px;
+    text-indent: 10px;
+    font-size: 15px;
 }
+
+.warning_pw {
+    color: red;
+    display: inline-block;
+    margin-left: 408px;
+    font-size: 12px;
+
+}
+
+
+.warning_pwSame {
+    color: green;
+    display: inline-block;
+    margin-left: 408px;
+    font-size: 12px;
+
+}
+
 
 input[name="repeat_pw"] { /*비밀번호 재확인*/
     width: 340px;
@@ -95,8 +122,10 @@ input[name="repeat_pw"] { /*비밀번호 재확인*/
     border-radius: 5px;
     border: 1px solid #D9D9D9;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 26px;
+    text-indent: 10px;
+    font-size: 15px;
 }
 
 input[name="join_name"] { /*이름*/
@@ -105,8 +134,10 @@ input[name="join_name"] { /*이름*/
     border-radius: 5px;
     border: 1px solid #D9D9D9;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 95px;
+    text-indent: 10px;
+    font-size: 15px;
 }
 
 
@@ -116,8 +147,10 @@ input[name="join_email"] { /*이메일*/
     border-radius: 5px;
     border: 1px solid #D9D9D9;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 78px;
+    text-indent: 10px;
+    font-size: 15px;
 }
 
 input[name="join_phone"] { /*휴대폰 번호*/
@@ -126,9 +159,64 @@ input[name="join_phone"] { /*휴대폰 번호*/
     border-radius: 5px;
     border: 1px solid #D9D9D9;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 78px;
+    text-indent: 10px;
+    font-size: 15px;
 
+}
+
+
+
+
+input#address-numbers { /*우편번호*/
+    width: 340px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 190px;
+    text-indent: 10px;
+    font-size: 15px;
+}
+
+input#address-roads { /*도로명주소*/
+    width: 340px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 78px;
+    text-indent: 10px;
+    font-size: 15px;
+}
+
+input#address-oldAddress { /*지번주소*/
+    width: 340px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 190px;
+    text-indent: 10px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+input#address-details { /*상세주소*/
+    width: 340px;
+    height: 26px;
+    border-radius: 5px;
+    border: 1px solid #D9D9D9;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 78px;
+    text-indent: 10px;
+    font-size: 15px;
+    margin-bottom: 15px;
 }
 
 button.address_search { /*주소*/
@@ -139,22 +227,27 @@ button.address_search { /*주소*/
 
     border-radius: 5px;
     border: 2px solid #5F0080;
-    margin: 15px auto 0 93px;
+    margin: 25px auto 0 93px;
     width: 340px;
     height: 46px;
     display: inline-block;
     text-align: center;
     line-height: 45px;
     font-weight: bold;
+
+    cursor: pointer;
 }
 
 span.text_address {
-    margin-left: 400px;
+    margin-left: 404px;
+    margin-top: 5px;
+    font-size: 14px;
+    display: block;
 }
 
 input#gender1{
     margin-left: 103px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 div.GENDER label{
@@ -168,14 +261,15 @@ input[name="birth"] { /*생년월일*/
     border-radius: 5px;
     border: 1px solid #D9D9D9;
     display: inline-block;
-    margin-top: 15px;
+    margin-top: 25px;
     margin-left: 73px;
     text-align: center;
+    font-size: 18px;
 }
 
 input#other1{
     margin-left: 40px;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 
 div.OTHER label{
@@ -202,34 +296,36 @@ input#gender1, input#gender2, input#gender3, input#other1, input#other2{
     accent-color: #5F0080;
 }
 
-input[type="checkbox"]{
-    width: 24px;
-    height: 24px;
-}
-/*
-input[type="checkbox"]{display:none;}
 
-[type="checkbox"]+label:before {
-    border: 2px solid #D9D9D9;
+input[type="checkbox"] {/*체크박스 디자인변경*/
+    opacity: 0; /* 요소를 화면에서 숨깁니다. */
+}
+
+input[type="checkbox"] + label::before {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border: 1px solid #000000;
     border-radius: 50%;
-    background: url("library/join_checkbox_png");
-
+    background-color: #FFFFFF;
     cursor: pointer;
-
-}
-*/
-[type="checkbox"]:checked{
-    width: 24px;
-    height: 24px;
-
-    accent-color: #5F0080;
+    background-image: url("../image/join_checkMark.png"); /* 체크된 이미지를 추가합니다. */
+    background-size: cover;
 }
 
+/* 체크되었을 때의 스타일 */
+input[type="checkbox"]:checked + label::before {
+    background-color: #5F0080; /* 배경색을 변경합니다. */
+    background-image: url("../image/join_checkMark.png"); /* 체크된 이미지를 추가합니다. */
+    background-size: cover;
+}
 
 label[for="agreement1"] { /*전체동의 굵은글씨*/
      font-size: 18px;
      font-weight: bold;
-
+     align-items: center;
+     display: inline-block;
  }
 
 
@@ -238,18 +334,28 @@ span.agreement_text{ /*전체동의 하단 작은안내글씨*/
     margin-left: 435px;
 }
 
-input#agreement2, input#agreement3, input#agreement5, input#agreement6{
-    margin-left: 402px;
+input#agreement1{
+    margin-left: 3px;
+    margin-top: 40px;
+}
+
+input#agreement2, input#agreement3{
+    margin-left: 382px;
+}
+
+input#agreement5, input#agreement6{
+    margin-left: 383px;
 }
 
 input#agreement4_1{ /*SMS 이메일 체크박스*/
 
-    margin-left: 430px;
+    margin-left: 410px;
 }
 
 input#agreement4{ /*이용약관동의 필수/선택*/
 
-    margin-left: 402px;
+    margin-left: 382px;
+    margin-top: 25px;
 }
 
 a.join_submit { /*가입하기*/
