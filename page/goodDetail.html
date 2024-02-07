@@ -7,23 +7,17 @@
     <link rel="stylesheet" href="../library/css/good_detail.css" />
   </head>
   <body>
-    <div class="container">
-  
-      
-
+    <div class="container" id="container">
       <div class="detail_main">
         <div class="section_view">
           <div class="section_left">
-            <div
-            class="thumb"
-  
-          >
-            <img
-              src="../library/img/elicegg.png"
-              alt="상품 대표 이미지"
-              class="bg"
-            />
-          </div>
+            <div class="thumb">
+              <img
+                src="../library/img/elicegg.png"
+                alt="상품 대표 이미지"
+                class="bg"
+              />
+            </div>
           </div>
           <div class="section_right">
             <div class="detail_header">
@@ -31,150 +25,150 @@
             </div>
             <div class="detail_title">
               <div class="detail_title_main">
-              <span>[상품명] 상품명 넣는곳</span>
-              <span class="btn_share">
-                <button id="btnShare">공유하기</button>
-              </span>
-            </div>
+                <span>[상품명] 상품명 넣는곳</span>
+                <span class="btn_share">
+                  <button id="btnShare">공유하기</button>
+                </span>
+              </div>
               <span class="short_desc">[한줄소개] 한줄소개 넣는곳</span>
             </div>
             <div class="detail_price">
-              <span class="price"> <span class="per">[할인율]</span> 가격 넣는곳</span>
-          </div>
-          <div class="detail_origin">
-            <span class="origin">원산지: [원산지]</span>
-          </div>
+              <span class="price">
+                <span class="per">[할인율]</span> 가격 넣는곳</span
+              >
+            </div>
+            <div class="detail_origin">
+              <span class="origin">원산지: [원산지]</span>
+            </div>
 
-          <div class="detail_delivery">
-            <div class="detail_delivery_title">
-              <span>배송</span>
+            <div class="detail_delivery">
+              <div class="detail_delivery_title">
+                <span>배송</span>
+              </div>
+              <div class="detail_delivery_desc">
+                <p class="first">샛별배송</p>
+                <p class="second">오늘 18시 이전 주문시 내일 수령</p>
+              </div>
             </div>
-            <div class="detail_delivery_desc">
-              <p class="first">샛별배송</p>
-              <p class="second">오늘 18시 이전 주문시 내일 수령</p>
-            </div>
-          </div>
 
+            <div class="detail_seller">
+              <div class="detail_seller_title">
+                <span>판매자</span>
+              </div>
+              <div class="detail_seller_desc">
+                <p class="first">컬리</p>
+              </div>
+            </div>
 
-          <div class="detail_seller">
-            <div class="detail_seller_title">
-              <span>판매자</span>
+            <div class="detail_pack_type">
+              <div class="detail_pack_type_title">
+                <span>포장타입</span>
+              </div>
+              <div class="detail_pack_type_desc">
+                <p class="first">포장타입 입력</p>
+                <p class="second">
+                  택배배송은 에코 포장이 스티로폼으로 대체됩니다.
+                </p>
+              </div>
             </div>
-            <div class="detail_seller_desc">
-              <p class="first">컬리</p>
-            </div>
-          </div>
 
+            <div class="detail_unit">
+              <div class="detail_unit_title">
+                <span>판매단위</span>
+              </div>
+              <div class="detail_unit_desc">
+                <p class="first">판매단위 입력</p>
+              </div>
+            </div>
 
-          <div class="detail_pack_type">
-            <div class="detail_pack_type_title">
-              <span>포장타입</span>
+            <div class="detail_weight">
+              <div class="detail_weight_title">
+                <span>중량/용량</span>
+              </div>
+              <div class="detail_weight_desc">
+                <p class="first">중량/용량 입력</p>
+              </div>
             </div>
-            <div class="detail_pack_type_desc">
-              <p class="first">포장타입 입력</p>
-              <p class="second">택배배송은 에코 포장이 스티로폼으로 대체됩니다.</p>
-            </div>
-          </div>
 
+            <div class="detail_expir_date">
+              <div class="detail_expir_date_title">
+                <span>소비기한</span>
+              </div>
+              <div class="detail_expir_date_desc">
+                <p class="first">소비기한 입력</p>
+              </div>
+            </div>
 
-          <div class="detail_unit">
-            <div class="detail_unit_title">
-              <span>판매단위</span>
+            <div class="detail_product_select">
+              <div class="detail_product_select_title">
+                <span>상품선택</span>
+              </div>
+              <div class="detail_product_select_desc">
+                <div class="option">
+                  <span class="count">
+                    <button type="button" class="btn down on">
+                      수량내리기
+                    </button>
+                    <input
+                      type="number"
+                      readonly="readonly"
+                      value="1"
+                      class="inp"
+                    />
+                    <button type="button" class="btn up on">수량올리기</button>
+                  </span>
+                </div>
+              </div>
             </div>
-            <div class="detail_unit_desc">
-              <p class="first">판매단위 입력</p>
-            </div>
-          </div>
 
-
-          <div class="detail_weight">
-            <div class="detail_weight_title">
-              <span>중량/용량</span>
-            </div>
-            <div class="detail_weight_desc">
-              <p class="first">중량/용량 입력</p>
-            </div>
-          </div>
-
-          <div class="detail_expir_date">
-            <div class="detail_expir_date_title">
-              <span>소비기한</span>
-            </div>
-            <div class="detail_expir_date_desc">
-              <p class="first">소비기한 입력</p>
-            </div>
-          </div>
-
-          <div class="detail_product_select">
-            <div class="detail_product_select_title">
-              <span>상품선택</span>
-            </div>
-            <div class="detail_product_select_desc">
-              <div class="option">
-                <span class="count">
-                  <button type="button" class="btn down on">
-                    수량내리기
-                  </button>
-                  <input
-                    type="number"
-                    readonly="readonly"
-                    value="1"
-                    class="inp"
-                  />
-                  <button type="button" class="btn up on">
-                    수량올리기
-                  </button>
+            <div class="detail_total_price">
+              <div class="detail_total_price_main">
+                <span>총 상품금액: <span class="won">0원</span></span>
+              </div>
+              <div class="detail_total_price_bottom">
+                <span class="ico">적립</span>
+                <span class="point">
+                  구매 시
+                  <strong class="emph">0원 적립</strong>
                 </span>
               </div>
             </div>
+
+            <div class="purchase_button">
+              <div class="first_btn">
+                <button type="button" class="btn btn_heart">
+                  <span>
+                    <img
+                      src="../library/img/kurly_heart.svg"
+                      alt="마켓컬리 로고"
+                      class="logo_img"
+                    />
+                  </span>
+                </button>
+              </div>
+              <div class="sec_btn">
+                <button type="button" class="btn btn_notice">
+                  <span>
+                    <img
+                      src="../library/img/kurly_notice.svg"
+                      alt="마켓컬리 로고"
+                      class="logo_img"
+                    />
+                  </span>
+                </button>
+              </div>
+              <div class="third_btn">
+                <button type="button" class="btn btn_cart">
+                  장바구니 담기
+                </button>
+              </div>
+            </div>
           </div>
-
-
-          <div class="detail_total_price">
-            <div class="detail_total_price_main">
-              <span>총 상품금액:  <span class="won">0원</span></span>
-            </div>
-            <div class="detail_total_price_bottom">
-              <span class="ico">적립</span>
-              <span class="point">
-                구매 시
-                <strong class="emph">0원 적립</strong>
-              </span>
-            </div>
-          </div>
-
-          <div class="purchase_button">
-            <div class="first_btn">
-              <button type="button" class="btn btn_heart">
-                <span>
-                  <img src="../library/img/kurly_heart.svg" alt="마켓컬리 로고" class="logo_img" />
-                </span>
-
-              </button>
-            </div>
-            <div class="sec_btn">
-              <button type="button" class="btn btn_notice">
-                <span>
-                  <img src="../library/img/kurly_notice.svg" alt="마켓컬리 로고" class="logo_img" />
-                </span>
-              </button>
-            </div>
-            <div class="third_btn">
-              <button type="button" class="btn btn_cart">장바구니 담기</button>
-            </div>
-
-          </div>
-
-
         </div>
-       
-        
+        <!-- sectionview end -->
 
-      </div> <!-- sectionview end -->
+        <div class="good-infomations">
 
-
-      <div class="good-infomations">
-        
         <nav class="infomations-tabs">
           <ul class="goods-view-infomation-tab-group">
             <li class="goods-view-infomation-tab">
@@ -192,59 +186,63 @@
               >
             </li>
             <li class="goods-view-infomation-tab">
-              <a
-                href="#goods-review"
-                class="goods-view-infomation-tab-anchor"
+              <a href="#goods-review" class="goods-view-infomation-tab-anchor"
                 >후기</a
               >
             </li>
             <li class="goods-view-infomation-tab">
-              <a
-                href="#goods-inquiry"
-                class="goods-view-infomation-tab-anchor"
-              >
+              <a href="#goods-inquiry" class="goods-view-infomation-tab-anchor">
                 문의
               </a>
             </li>
-           
           </ul>
           <span class="et-infomations-tab-slider"></span>
         </nav>
 
-
         <main class="good-infomation-main">
           <section class="et-slide tab-description" id="goods-description">
             <div class="good-description-main-picture">
-              <img src="../library/img/elicegg.png" alt="상품 대표 이미지" class="bg" />
+              <img
+                src="../library/img/elicegg.png"
+                alt="상품 대표 이미지"
+                class="bg"
+              />
             </div>
             <div class="good-description-main-context">
               <h3 class="gd-title">[엘리스트랙]</h3>
-              <p class="gd-desc">엘리스 Cloud트랙은 안정적인 웹 서비스를 효율적으로 구축하는 백엔드 24주 커리큘럼으로 진행됩니다. JAVA 기초부터 Spring 중급을 거쳐 클라우드 
-                환경까지 경험해보며 현업 개발팀 방식 그대로 실무 프로젝트 3개를 완수해 보세요.</p>
-                <div class="good-tip">
-                  <h3>
-                    <span>Kurly's Tip</span>
-                  </h3>
-                  <div class="tip-box">
-                    <div class="tb-context">
-                      <p class="words">
-                        <strong>제품 꿀팁</strong>
-                        <b>・</b>
-                        -18℃ 이하에서 냉동 보관하세요.
-                        <br />
-                        <b>・</b>
-                        드시기 30분 전에 꺼내어 자연 해동하세요. 
-                        <br>
-                      </p>
-                    </div>
-
+              <p class="gd-desc">
+                엘리스 Cloud트랙은 안정적인 웹 서비스를 효율적으로 구축하는
+                백엔드 24주 커리큘럼으로 진행됩니다. JAVA 기초부터 Spring 중급을
+                거쳐 클라우드 환경까지 경험해보며 현업 개발팀 방식 그대로 실무
+                프로젝트 3개를 완수해 보세요.
+              </p>
+              <div class="good-tip">
+                <h3>
+                  <span>Kurly's Tip</span>
+                </h3>
+                <div class="tip-box">
+                  <div class="tb-context">
+                    <p class="words">
+                      <strong>제품 꿀팁</strong>
+                      <b>・</b>
+                      -18℃ 이하에서 냉동 보관하세요.
+                      <br />
+                      <b>・</b>
+                      드시기 30분 전에 꺼내어 자연 해동하세요.
+                      <br />
+                    </p>
                   </div>
                 </div>
+              </div>
             </div>
           </section>
           <section class="et-slide" id="goods-infomation">
             <div class="good-description-main-picture">
-              <img src="../library/img/elicetrack.png" alt="상품 대표 이미지" class="bg" />
+              <img
+                src="../library/img/elicetrack.png"
+                alt="상품 대표 이미지"
+                class="bg"
+              />
             </div>
             <div class="good-infomation-main-context">
               <h3 class="gd-title">About Brand</h3>
@@ -267,27 +265,248 @@
               </p>
             </div>
           </section>
-          <section class="et-slide" id="goods-review">
-            <h1>후기</h1>
-            <h3>후기 내용</h3>
-          </section>
-          <section class="et-slide" id="goods-inquery">
-            <h1>문의</h1>
-            <h3>상품 문의</h3>
-          </section>
   
+          <section class="et-slide" id="goods-inquery">
+ 
+          </section>
         </main>
 
+        <div class="good_reviews" id="goods-review">
+          <div class="gr_title">
+            <h2 >상품 후기</h2>
+          </div>
 
+          <div class="gr_thumbs">
+            <button class="gr_thumb">
+              <div  class="gr_thumb_title">
+              </div>
+              <div class="gr_thumb_img">
+                <img src="/library/img/elicegg.png" />
+              </div>
+            </button>
+     
+            <button class="gr_thumb">
+              <div  class="gr_thumb_title">
+              </div>
+              <div class="gr_thumb_img">
+                <img src="/library/img/elicegg.png" />
+              </div>
+            </button>
+            <button class="gr_thumb">
+              <div  class="gr_thumb_title">
+              </div>
+              <div class="gr_thumb_img">
+                <img src="/library/img/elicegg.png" />
+              </div>
+            </button>
+            <button class="gr_thumb">
+              <div  class="gr_thumb_title">
+              </div>
+              <div class="gr_thumb_img">
+                <img src="/library/img/elicegg.png" />
+              </div>
+            </button>
+            <button class="gr_thumb">
+              <div  class="gr_thumb_title">
+              </div>
+              <div class="gr_thumb_img">
+                <img src="/library/img/elicegg.png" />
+              </div>
+            </button>
+            <button class="gr_thumb">
+              <div  class="gr_thumb_title">
+              </div>
+              <div class="gr_thumb_img">
+                <img src="/library/img/elicegg.png" />
+              </div>
+            </button>
+            <button class="gr_thumb">
+              <div  class="gr_thumb_title">
+              </div>
+              <div class="gr_thumb_img">
+                <img src="/library/img/elicegg.png" />
+              </div>
+            </button>
+
+            <button class="gr_thumb">
+              <div  class="gr_thumb_title">
+                <span class="gr_thumb_title_font">+더보기</span>
+              </div>
+              <div class="gr_thumb_img">
+                <img src="/library/img/elicegg.png" />
+              </div>
+            </button>
+
+          </div>
+
+          <div class="good_review_count">
+            <div class="gr_count_total">
+              <span>총 0개</span>
+            </div>
+            <div class="gr_order_by">
+              <div class="order_first">
+                <a href="#" class="gr_order_btn active">추천순</a>
+              </div>
+              <span>|</span>
+              <div class="order_second">
+                <a href="#" class="gr_order_btn">최근등록순</a>
+              </div>
+       
+          
+            </div>
+          </div>
+
+          <div class="good_review_grade">
+            <button class="gr_grade_btn">회원 등급</button>
+          </div>
+
+          <div class="good_review_announce">
+            <div class="gr_announce">
+              <div class="gr_a_type">
+                <span>공지</span>
+              </div>
+              <div class="gr_a_title">
+                <span>상품후기 적립금 정책 안내</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="good_review_account">
+            <div class="gr_a_name">
+                <span class="gr_a_n_grade">멤버스</span>
+                <span class="gr_a_n_username">엘**</span>
+            </div>
+
+            <div class="gr_a_content">
+              <div class="gr_a_product_name">[리뷰 상품 이름] 상품 이름 </div>
+              <div class="gr_a_content_detail">
+                <p>리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다.
+                 
+                </p>
+                </div>
+              <div class="gr_a_content_imgs">
+                <button class="gr_a_content_img gr_thumb">
+                  <img src="/library/img/elicegg.png" />
+                </button>
+
+              </div>
+              <div class="gr_a_content_date">
+                <div>
+                  <span>2021.01.01</span>
+                </div>
+                <div>
+                  <button class="gr_a_content_thumb">
+                    <span class="gr_a_c_thumb_icon">
+                      <img src="/library/img/kurly_thumb.svg" />
+                    </span>
+                    <span>도움돼요</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div class="good_review_account">
+            <div class="gr_a_name">
+                <span class="gr_a_n_grade">일반</span>
+                <span class="gr_a_n_username">엘**</span>
+            </div>
+
+            <div class="gr_a_content">
+              <div class="gr_a_product_name">[리뷰 상품 이름] 상품 이름 </div>
+              <div class="gr_a_content_detail">
+                <p> 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다.
+                 
+                </p>
+                </div>
+              <div class="gr_a_content_imgs">
+                <button class="gr_a_content_img gr_thumb">
+                  <img src="/library/img/elicegg.png" />
+                </button>
+                <button class="gr_a_content_img gr_thumb">
+                  <img src="/library/img/elicegg.png" />
+                </button>
+              </div>
+              <div class="gr_a_content_date">
+                <div>
+                  <span>2021.01.01</span>
+                </div>
+                <div>
+                  <button class="gr_a_content_thumb">
+                    <span class="gr_a_c_thumb_icon">
+                      <img src="/library/img/kurly_thumb.svg" />
+                    </span>
+                    <span>도움돼요</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          
+
+        </div>
       </div>
 
 
-      <div class="footer">
-
-      </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
-    <script src="../library/js/goodDetail.js"></script>
 
+
+    <div class="modal-container" id="modalContainer">
+      <div class="modal">
+        <header>
+          <span class="mh_title">사진 후기</span>
+          <button class="mh_btn" id="modal_btnClose"><span>X</span></button>
+        </header>
+        <div class="modal_main">
+          <div class="mm_img">
+             <img src="/library/img/elicegg.png" alt="Modal Image">
+          </div>
+
+          <div class="mm_review">
+            <div class="gr_a_name">
+              <span class="gr_a_n_grade">일반</span>
+              <span class="gr_a_n_username">엘**</span>
+            </div>
+            <div class="gr_a_product_name">[리뷰 상품 이름] 상품 이름 </div>
+
+            <div class="gr_a_content_detail">
+              <p> 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다.
+               
+              </p>
+            </div>
+
+            <div class="gr_a_content_date">
+              <div class="gr_a_c_date">
+                <span>2021.01.01</span>
+              </div>
+              <div>
+                <button class="gr_a_content_thumb">
+                  <span class="gr_a_c_thumb_icon">
+                    <img src="/library/img/kurly_thumb.svg" />
+                  </span>
+                  <span>도움돼요</span>
+                </button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+       
+      </div?>
+    </div>
+    
+    <div class="background" id="background"></div>
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.slim.min.js"
+      integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="../library/js/goodDetail.js"></script>
   </body>
 </html>
