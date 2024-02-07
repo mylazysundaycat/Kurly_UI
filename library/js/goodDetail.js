@@ -34,5 +34,34 @@ window.addEventListener("DOMContentLoaded", function () {
         $(element.attr("href")).offset().top - this.tabContainerHeight + 1;
       $("html, body").animate({ scrollTop: scrollTop }, 600);
     }
+
+    // 모달
+    const modalContainer = document.getElementById("modalContainer");
+    const background = document.getElementById("background");
+    const mainBackground = document.getElementById("container");
+    const modalCloseBtn = document.getElementById("modal_btnClose");
+
+    //  open modal
+    function openModal() {
+      modalContainer.style.display = "flex";
+    }
+
+    //  close modal
+    function closeModal() {
+      modalContainer.style.display = "none";
+      background.style.display = "none";
+      mainBackground.style.display = "flex";
+    }
+
+    modalCloseBtn.addEventListener("click", closeModal);
+
+    document.querySelectorAll(".gr_thumb").forEach((item) => {
+      console.log("click");
+      item.addEventListener("click", openModal);
+      //   // document.querySelector(".gr_thumb.active").classList.remove("active");
+      //   // item.classList.add("active");
+      //   // document.querySelector(".goods-view-img").src = item.src;
+      // });
+    });
   });
 });
