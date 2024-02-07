@@ -203,6 +203,36 @@ main{
     font-size: 14px;
 }
 
+.product-popup-container1{
+    position: fixed;
+    z-index: 2;
+    inset: 0px;
+
+}
+
+.pp-c2{
+    height: 100%;
+    outline: 0px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.pp-paper{
+    height: 320px   ;
+    width: 440px;
+    overflow-x: hidden;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: none;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.87);
+    margin: 32px;
+}
+
+
+
 
 /*리스트 아이콘*/
 .material-symbols-outlined {
@@ -387,6 +417,189 @@ main{
     font-size: 14px;
 }
 
+.product-popup-p{
+    position: fixed;
+    z-index: 1300;
+    inset: 0px;
+}
+.product-popip-bg{
+    position: fixed;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    justify-content: center;
+    inset: 0px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.product-popup-container1{
+
+}
+
+.pp-c2{
+
+}
+
+.pp-paper{
+
+}
+
+.pp-paper-wrapper1{
+    display: flex;
+    padding: 5px 0px 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+.pp-w1-img{
+    width: 50px;
+    height: 50px;
+}
+
+.pp-w1-title{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-top: 2px;
+    padding-left: 20px;
+}
+
+.pp-w1-t-d{
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    font-size: 15px;
+    line-height: 20px;
+    display: -webkit-box;
+    overflow: hidden;
+    word-break: break-all;
+    white-space: normal;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+
+.pp-paper-wrapper2{
+    padding: 12px 0px;
+    border-radius: 3px;
+    border-bottom: 1px solid rgb(244, 244, 244);
+}
+
+.pp-w2-title{
+
+}
+
+.pp-w2-detail{
+    font-size: 13px;
+    line-height: 1.33;
+    margin-top: 2px;
+    color: rgb(102, 102, 102);
+}
+
+.pp-w2-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.w2-price{
+
+}
+
+.sale-p{
+    font-weight: bold;
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    line-height: 19px;
+}
+
+.ori-p{
+    margin-left: 4px;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgb(181, 181, 181);
+    text-decoration: line-through;
+    line-height: 16px;
+    letter-spacing: -0.5px;
+}
+
+.pp-paper-wrapper3{
+    padding: 14px 0px 20px;
+}
+
+.pp-w3-total-price{
+
+}
+
+.pp-w3-price{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.pp-w3-point{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.pp-w3-point-box{
+    margin-top: 3px;
+    width: 34px;
+    height: 23px;
+    margin-right: 4px;
+    border-radius: 11px;
+    background-color: rgb(255, 191, 0);
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: -0.5px;
+}
+
+
+
+.pp-paper-wrapeer4{
+    display: flex;
+    flex-direction: row;
+}
+
+.pp-w4-cancel{
+    display: block;
+    padding: 0px 10px;
+    text-align: center;
+    overflow: hidden;
+    height: 56px;
+    border-radius: 3px;
+    color: rgb(51, 51, 51);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(221, 221, 221);
+    width: 50%;
+    margin: 0px 4px;
+    margin-left: 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.pp-w4-basket{
+    margin-right: 0px;
+    width: 50%;
+    margin: 0px 4px;
+    display: block;
+    padding: 0px 10px;
+    text-align: center;
+    overflow: hidden;
+    height: 56px;
+    border-radius: 3px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(95, 0, 128);
+    border: 0px none;
+    font-size: 16px;
+    font-weight: 500;
+}
 
 /*마켓컬리 폰트 색상*/
 .main-color {

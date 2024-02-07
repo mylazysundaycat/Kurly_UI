@@ -86,9 +86,9 @@
                     <img src="library/img/product-img-1.jpg" class="sc1-img-d" alt="상품1">
                 </div>
                 <div>
-                    <button class="sc-btn1 cur">
+                    <button class="sc-btn1 cur" id="addToCartButton1">
                         <div><img src="library/img/cart-icon.png" class="sc1-cart" alt="cart"></div>
-                        <div class="sc-btn1-f">담기</div>
+                        <div class="sc-btn1-f" >담기</div>
                     </button>
                 </div>
                 <div class="sc1-title">[선물세트] 횡성축협한우 1++ 프리미엄세트 1호 (냉장)</div>
@@ -107,7 +107,7 @@
                     <img src="library/img/product-img-2.jpg" class="sc1-img-d" alt="상품1">
                 </div>
                 <div>
-                    <button class="sc-btn1 cur">
+                    <button class="sc-btn1 cur" id="addToCartButton2">
                         <div><img src="library/img/cart-icon.png" class="sc1-cart" alt="cart"></div>
                         <div class="sc-btn1-f">담기</div>
                     </button>
@@ -128,9 +128,9 @@
                     <img src="library/img/product-img-3.jpg" class="sc1-img-d" alt="상품1">
                 </div>
                 <div>
-                    <button class="sc-btn1 cur">
+                    <button class="sc-btn1 cur" id="addToCartButton3">
                         <div><img src="library/img/cart-icon.png" class="sc1-cart" alt="cart"></div>
-                        <div class="sc-btn1-f">담기</div>
+                        <div class="sc-btn1-f" >담기</div>
                     </button>
                 </div>
                 <div class="sc1-title">[선물세트][정관장] 홍삼정 에브리타임 밸런스 (30일분) + (쇼핑백증정)</div>
@@ -149,7 +149,7 @@
                     <img src="library/img/product-img-4.jpg" class="sc1-img-d" alt="상품1">
                 </div>
                 <div>
-                    <button class="sc-btn1 cur">
+                    <button class="sc-btn1 cur" id="addToCartButton4">
                         <div><img src="library/img/cart-icon.png" class="sc1-cart" alt="cart"></div>
                         <div class="sc-btn1-f">담기</div>
                     </button>
@@ -167,8 +167,48 @@
                     <div class="sc1-c-count sub-color2">86</div>
                 </div>
             </div>
-
-
+        </div>
+        <div role="presentation" class="product-popup-p" id="product-popup-p" style="display: none;">
+            <div aria-hidden="true" class="product-popip-bg"></div>
+            <div class="product-popup-container1">
+                <div class="pp-c2">
+                    <div class="pp-paper">
+                        <div class="pp-paper-wrapper1">
+                            <div class="pp-w1-img">
+                                <img src="library/img/product-img-1.jpg" style="width: 100%; height: 100%">
+                            </div>
+                            <div class="pp-w1-title">
+                                <div class="pp-w1-t-d">[선물세트] 횡성축협한우 1++ 프리미엄세트 1호 (냉장)</div>
+                            </div>
+                        </div>
+                        <div class="pp-paper-wrapper2">
+                            <div class="pp-w2-title">[선물세트] 횡성축협한우 1++ 프리미엄세트 1호 (냉장)</div>
+                            <div class="pp-w2-detail">적립제외상품</div>
+                            <div class="pp-w2-price">
+                                <div class="w2-price">
+                                    <span class="sale-p"><b>219,000</b>원</span>
+                                    <span class="ori-p">259,000원</span>
+                                </div>
+                                <div class="w2-check-box">
+                                    <span>수량 체크박스 만들기</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="pp-paper-wrapper3">
+                            <span class="pp-w3-total-price">합계</span>
+                            <span class="pp-w3-price"><b>219,000</b>원</span>
+                            <div class="pp-w3-point">
+                                <div class="pp-w3-point-box">적립</div>
+                                <div>로그인 후, 적립 혜택 제공</div>
+                            </div>
+                        </div>
+                        <div class="pp-paper-wrapeer4">
+                            <button class="pp-w4-cancel cur" id="cancelButton">취소</button>
+                            <button class="pp-w4-basket cur">장바구니 담기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </article>
 </main>
