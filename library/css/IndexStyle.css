@@ -417,7 +417,22 @@ main{
     font-size: 14px;
 }
 
-.product-popup-p{
+.product-popup-p1 {
+    position: fixed;
+    z-index: 1300;
+    inset: 0px;
+}
+.product-popup-p2 {
+    position: fixed;
+    z-index: 1300;
+    inset: 0px;
+}
+.product-popup-p3 {
+    position: fixed;
+    z-index: 1300;
+    inset: 0px;
+}
+.product-popup-p4 {
     position: fixed;
     z-index: 1300;
     inset: 0px;
@@ -475,7 +490,7 @@ main{
     overflow: hidden;
     word-break: break-all;
     white-space: normal;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 1;
     -webkit-box-orient: vertical;
 }
 
@@ -487,7 +502,16 @@ main{
 }
 
 .pp-w2-title{
-
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    font-size: 15px;
+    line-height: 20px;
+    display: -webkit-box;
+    overflow: hidden;
+    word-break: break-all;
+    white-space: normal;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
 }
 
 .pp-w2-detail{

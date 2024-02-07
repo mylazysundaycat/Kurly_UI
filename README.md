@@ -15,7 +15,6 @@
 ## 개발 도구
 * 프로토 타입 <br>
   * [FIGMA](https://www.figma.com/file/p7r9bp7xWMGV0XKzsV89Li/%EC%97%98%EB%A6%AC%EC%8A%A4-%ED%8A%B8%EB%9E%99-2%EA%B8%B0---Team-%EC%96%BC%EB%A6%AC%EB%9E%98%EB%B9%97?type=design&node-id=0%3A1&mode=design&t=8uIAamxvSoDecCYB-1)
-  <br>
 * 사용 기술<br>
   * `HTML`,`CSS`,`JAVASCRIPT`<br>
 * 소통 <br>
