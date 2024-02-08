@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <!-- main css -->
     <link rel="stylesheet" href="library/css/IndexStyle.css" />
@@ -71,29 +71,29 @@
         <div class="group" >
             <div class="overlap-group">
                 <img class="img1" src="library/img/ct-img1.png" />
-                <div class="text-wrapper">2024 설 선물세트</div>
-                <div class="div">채소</div>
-                <div class="text-wrapper-1">과일 · 견과 · 쌀</div>
-                <div class="text-wrapper-2">수산 · 해산 · 건어물</div>
-                <div class="text-wrapper-3">정육 · 가공육 · 계란</div>
-                <div class="text-wrapper-4">국 · 반찬 · 메인요리</div>
-                <div class="text-wrapper-5">간편식 · 밀키트 · 샐러드</div>
-                <div class="text-wrapper-6">면 · 양념 · 오일</div>
-                <div class="text-wrapper-7">생수 · 음료 · 커피</div>
-                <div class="text-wrapper-8">간식 · 과자 · 떡</div>
-                <div class="text-wrapper-9">베이커리</div>
-                <div class="text-wrapper-10">유제품</div>
-                <img class="img2" src="library/img/ct-img2.png" />
-                <img class="img3" src="library/img/ct-img3.png" />
-                <img class="img4" src="library/img/ct-img4.png" />
-                <img class="img5" src="library/img/ct-img5.png" />
-                <img class="img6" src="library/img/ct-img6.png" />
-                <img class="img7" src="library/img/ct-img7.png" />
-                <img class="img8" src="library/img/ct-img8.png" />
-                <img class="img9" src="library/img/ct-img9.png" />
-                <img class="img10" src="library/img/ct-img10.png" />
-                <img class="img11" src="library/img/ct-img11.png" />
-                <img class="img12" src="library/img/ct-img12.png" />
+                <div class="text-wrapper cur">2024 설 선물세트</div>
+                <div class="div cur">채소</div>
+                <div class="text-wrapper-1 cur">과일 · 견과 · 쌀</div>
+                <div class="text-wrapper-2 cur">수산 · 해산 · 건어물</div>
+                <div class="text-wrapper-3 cur">정육 · 가공육 · 계란</div>
+                <div class="text-wrapper-4 cur">국 · 반찬 · 메인요리</div>
+                <div class="text-wrapper-5 cur">간편식 · 밀키트 · 샐러드</div>
+                <div class="text-wrapper-6 cur">면 · 양념 · 오일</div>
+                <div class="text-wrapper-7 cur">생수 · 음료 · 커피</div>
+                <div class="text-wrapper-8 cur">간식 · 과자 · 떡</div>
+                <div class="text-wrapper-9 cur">베이커리</div>
+                <div class="text-wrapper-10 cur">유제품</div>
+                <img class="img2 cur" src="library/img/ct-img2.png" />
+                <img class="img3 cur" src="library/img/ct-img3.png" />
+                <img class="img4 cur" src="library/img/ct-img4.png" />
+                <img class="img5 cur" src="library/img/ct-img5.png" />
+                <img class="img6 cur" src="library/img/ct-img6.png" />
+                <img class="img7 cur" src="library/img/ct-img7.png" />
+                <img class="img8 cur" src="library/img/ct-img8.png" />
+                <img class="img9 cur" src="library/img/ct-img9.png" />
+                <img class="img10 cur" src="library/img/ct-img10.png" />
+                <img class="img11 cur" src="library/img/ct-img11.png" />
+                <img class="img12 cur" src="library/img/ct-img12.png" />
             </div>
         </div>
     </div>
@@ -222,7 +222,9 @@
                                     <span class="ori-p">259,000원</span>
                                 </div>
                                 <div class="w2-check-box">
-                                    <span>수량 체크박스 만들기</span>
+                                    <div><button class="w2-minus">-</button></div>
+                                    <div><input type="text" class="w2-count " value="0" disabled></div>
+                                    <div><button class="w2-plus">+</button></div>
                                 </div>
                             </div>
                         </div>
@@ -236,7 +238,7 @@
                         </div>
                         <div class="pp-paper-wrapeer4">
                             <button class="pp-w4-cancel cur" id="cancelButton1">취소</button>
-                            <button class="pp-w4-basket cur">장바구니 담기</button>
+                            <button class="pp-w4-basket cur" id="addToCartBtn1">장바구니 담기</button>
                         </div>
                     </div>
                 </div>
@@ -265,7 +267,9 @@
                                     <span class="ori-p">140,250원</span>
                                 </div>
                                 <div class="w2-check-box">
-                                    <span>수량 체크박스 만들기</span>
+                                    <div><button class="w2-minus">-</button></div>
+                                    <div><input type="text" class="w2-count " value="0" disabled></div>
+                                    <div><button class="w2-plus">+</button></div>
                                 </div>
                             </div>
                         </div>
@@ -279,7 +283,7 @@
                         </div>
                         <div class="pp-paper-wrapeer4">
                             <button class="pp-w4-cancel cur" id="cancelButton2">취소</button>
-                            <button class="pp-w4-basket cur">장바구니 담기</button>
+                            <button class="pp-w4-basket cur" id="addToCartBtn2">장바구니 담기</button>
                         </div>
                     </div>
                 </div>
@@ -308,7 +312,9 @@
                                     <span class="ori-p">81,000원</span>
                                 </div>
                                 <div class="w2-check-box">
-                                    <span>수량 체크박스 만들기</span>
+                                    <div><button class="w2-minus">-</button></div>
+                                    <div><input type="text" class="w2-count " value="0" disabled></div>
+                                    <div><button class="w2-plus">+</button></div>
                                 </div>
                             </div>
                         </div>
@@ -322,7 +328,7 @@
                         </div>
                         <div class="pp-paper-wrapeer4">
                             <button class="pp-w4-cancel cur" id="cancelButton3">취소</button>
-                            <button class="pp-w4-basket cur">장바구니 담기</button>
+                            <button class="pp-w4-basket cur" id="addToCartBtn3">장바구니 담기</button>
                         </div>
                     </div>
                 </div>
@@ -351,7 +357,9 @@
                                     <span class="ori-p">59,000원</span>
                                 </div>
                                 <div class="w2-check-box">
-                                    <span>수량 체크박스 만들기</span>
+                                    <div><button class="w2-minus">-</button></div>
+                                    <div><input type="text" class="w2-count " value="0" disabled></div>
+                                    <div><button class="w2-plus">+</button></div>
                                 </div>
                             </div>
                         </div>
@@ -365,12 +373,82 @@
                         </div>
                         <div class="pp-paper-wrapeer4">
                             <button class="pp-w4-cancel cur" id="cancelButton4">취소</button>
-                            <button class="pp-w4-basket cur">장바구니 담기</button>
+                            <button class="pp-w4-basket cur" id="addToCartBtn4" >장바구니 담기</button>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </article>
+    <article class="alarm-container">
+        <!-- 알람 -->
+
+        <div role="presentation" class="noti-container1" id="noti-container1"  style="display: none;">
+            <div aria-hidden="true" class="product-popip-bg"></div>
+            <div class="noti-container2">
+                <div class="noti-container3">
+                    <div class="noti-paper">
+                        <div class="noti-paper-content">
+                            [선물세트] 횡성축협한우 1++ 프리미엄세트 1호 (냉장) 상품의 최소 구매수량은 1개 입니다.
+                        </div>
+                        <div>
+                            <button class="noti-ok cur" id="noti-ok1">확인</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div role="presentation" class="noti-container1" id="noti-container2"  style="display: none;">
+            <div aria-hidden="true" class="product-popip-bg"></div>
+            <div class="noti-container2">
+                <div class="noti-container3">
+                    <div class="noti-paper">
+                        <div class="noti-paper-content">
+                            [랑콤] 레네르지 탄력 광채크림 50ml 설 선물세트 (+4종 디럭스 샘플 증정) 상품의 최소 구매수량은 1개 입니다.
+                        </div>
+                        <div>
+                            <button class="noti-ok cur" id="noti-ok2">확인</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div role="presentation" class="noti-container1" id="noti-container3"  style="display: none;">
+            <div aria-hidden="true" class="product-popip-bg"></div>
+            <div class="noti-container2">
+                <div class="noti-container3">
+                    <div class="noti-paper">
+                        <div class="noti-paper-content">
+                            [선물세트][정관장] 홍삼정 에브리타임 밸런스 (30일분) + (쇼핑백증정) 상품의 최소 구매수량은 1개 입니다.
+                        </div>
+                        <div>
+                            <button class="noti-ok cur" id="noti-ok3">확인</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div role="presentation" class="noti-container1" id="noti-container4"  style="display: none;">
+            <div aria-hidden="true" class="product-popip-bg"></div>
+            <div class="noti-container2">
+                <div class="noti-container3">
+                    <div class="noti-paper">
+                        <div class="noti-paper-content">
+                            [선물세트] 유명산지 사과세트 3.8kg (15입) 상품의 최소 구매수량은 1개 입니다.
+                        </div>
+                        <div>
+                            <button class="noti-ok cur" id="noti-ok4">확인</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
 
 
     </article>
