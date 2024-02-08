@@ -9,6 +9,14 @@
     font-style: normal;
 }
 
+@keyframes down {
+    0%{
+        transform: translateY(-50px)
+    }
+    100%{
+        transform: translateY(0px)
+    }
+}
 
 .Order_page-order{
     width: 1050px;
@@ -209,7 +217,19 @@
     height: 2184px;
     overflow:hidden;
 }
-.Order_page-right.fixed .Order_page_all{position:fixed; top:0;}
+.Order_page-right.fixed .Order_page_all{position:fixed; top:40px;}
+.Order_page-right.fixed2 .Order_page_all{position: fixed; bottom:600px;
+    clip: rect( 230px, 3000px, 520px, 0px  );}
+
+
+.fix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    animation: down 0.5s;
+    background-color: white;
+}
+
 
 .Order_page-sum_title{
     font-weight: bold;
@@ -567,20 +587,29 @@
     color: rgb(221, 221, 221);
 }
 
+.Order_page-zero {
+    overflow: hidden;
+}
+
+.number_money{
+    background-color: #fff;
+    width: 306px;
+    height: 33px;
+    opacity: 1;
+    margin-right: 8px;
+    border-radius: 3px;
+    border : 1px solid rgb(221, 221, 221);
+    font-size: 14px;
+    padding: 4px 16px;
+    color: #333;
+    letter-spacing: -0.5px;
+    outline: none;
+}
+
 .Order_page-use_all{
     display: flex;
     width: 552px;
     height: 44px;
-}
-.Order_page-zero{
-    width: 306px;
-    height: 33px;
-    opacity: 1;
-    padding-top: 11px;
-    background-color: white;
-    margin-right: 8px;
-    border-radius: 3px;
-    border : 1px solid rgb(221, 221, 221);
 }
 .Order_page-use_point_text{
     width: 20px;
@@ -590,12 +619,13 @@
 }
 .Order_page-use_all_text{
     width: 100px;
-    height: 34px;
+    height: 32px;
     text-align: center;
     padding-top: 10px;
-
+    font-size: 14px;
     border-radius: 3px;
     border : 1px solid rgb(221, 221, 221);
+    cursor: pointer;
 }
 .Order_page-text1{
     font-size: 12px;
@@ -721,8 +751,10 @@
     font-weight: bold;
     text-align: center;
     margin-top: 12px;
+    width: 414px;
 }
-.Order_page-three_choice_one{
+
+.Order_page-three_choice_btn{
     width: 138px;
     height: 35px;
     border-radius: 3px 0 0 3px;
@@ -730,22 +762,10 @@
     padding-top: 13px;
     cursor: pointer;
 }
-.Order_page-three_choice_two{
-    width: 138px;
-    height: 35px;
-    padding-top: 13px;
-    border : 1px solid rgb(221, 221, 221);
-    border-right: none;
-    border-left: none;
-    cursor: pointer;
-}
-.Order_page-three_choice_three{
-    width: 138px;
-    height: 35px;
-    padding-top: 13px;
-    border-radius: 0 3px 3px 0;
-    border : 1px solid rgb(221, 221, 221);
-    cursor: pointer;
+
+.Order_page-three_choice_btn.active{
+   background-color: #5F0080;
+    color: white;
 }
 
 .Order_page-benefit_info{
