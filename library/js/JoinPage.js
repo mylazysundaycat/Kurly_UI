@@ -1,11 +1,12 @@
 /*화면 너비 조정*/
-    window.onload = function () {
+  /*  window.onload = function () {
         const defaultWidth = 1440;
         const scale = window.screen.width / defaultWidth;
         if (scale !== 1) {
             document.body.style.transform = 'scale(' + scale + ')';
         }
     }
+*/
 
     /*체크박스 모두선택*/
     function checkAll(el){
@@ -17,6 +18,7 @@
 
 /*비밀번호-비밀번호 확인 알림*/
 document.addEventListener('DOMContentLoaded', function() {
+    let alertDisplayed = false;
     document.addEventListener('focusout', function () {
         let username = document.getElementById('join_pw').value;
         let password = document.getElementById('repeat_pw').value;
@@ -26,14 +28,14 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('repeat_pw').style.border = '1px solid red';
             document.getElementById('warning_pw').style.display = 'block';
             document.getElementById('warning_pwSame').style.display = 'none';
-
+            alertDisplayed = false;
 
         } else if  (username == password) {
             document.getElementById('join_pw').style.border = '1.5px solid green'; // 테두리 색상 변경
             document.getElementById('repeat_pw').style.border = '1.5px solid green';
             document.getElementById('warning_pwSame').style.display = 'block';
             document.getElementById('warning_pw').style.display = 'none';
-
+            alertDisplayed = false;
 
         } else {
             document.getElementById('join_pw').style.border = '1.5px solid red'; // 테두리 색상 변경
@@ -41,6 +43,12 @@ document.addEventListener('DOMContentLoaded', function() {
             document.getElementById('warning_pw').style.display = 'block';
             document.getElementById('warning_pwSame').style.display = 'none';
 
+            if (!alertDisplayed) {
+                alert("비밀번호와 비밀번호 확인이 일치하지 않습니다. 비밀번호를 확인해주세요.")
+                alertDisplayed = true;
+                document.getElementById('repeat_pw').focus();
+
+            }
         }
 
     });
@@ -139,11 +147,30 @@ document.addEventListener('DOMContentLoaded', function() {
         let addressRoads = document.getElementById('address-roads').value;
         if (!addressNumbers || !addressRoads) {
             alert("주소를 입력해주세요.");
+            document.getElementById('address_search').focus();
+
             return;
+
         }
 
-        // 필수 입력사항 체크
+
+
+
+                //비밀번호 일치여부
+                let password = document.getElementById('join_pw').value;
+                let repeatPassword = document.getElementById('repeat_pw').value;
+
+                if (password !== repeatPassword) {
+                    alert("비밀번호가 일치하지 않습니다. 비밀번호를 확인해주세요.");
+                    return; // 비밀번호가 일치하지 않을 때 이후 코드 실행을 막습니다.
+                }
+
+
+
+
+                // 필수 입력사항 체크
         let requiredInputs = document.querySelectorAll('input[class=border-color]');
+        alertDisplayed = false;
         requiredInputs.forEach(function(input) {
             if (!input.value.trim()) {
                 if (!alertDisplayed) {
@@ -152,6 +179,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             }
         });
+
+        if (alertDisplayed) {
+            return;
+        }
 
         // 약관 동의 체크
         let agreementCheckboxes = document.querySelectorAll('input[id="agreement2"]');
@@ -180,7 +211,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
 
         // 모든 조건을 충족했을 때는 어떤 동작을 수행합니다.
-        alert("가입이 완료되었습니다."); // 예시로 경고창을 띄웠습니다. 원하는 동작으로 변경해주세요.
+        alert("가입이 완료되었습니다.");
+        window.location.href = "../index.html";
     });
 });
 
@@ -216,7 +248,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 /*상세주소 미입력시*/
 document.addEventListener('DOMContentLoaded', function() {
-    document.addEventListener('focusout', function () {
+    document.addEventListener('click', function () {
         let password = document.getElementById('address-details').value;
 
         if (password.trim() === '') {
