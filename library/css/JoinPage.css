@@ -310,14 +310,14 @@ input[type="checkbox"] + label::before {
     border-radius: 50%;
     background-color: #FFFFFF;
     cursor: pointer;
-    background-image: url("../image/join_checkMark.png"); /* 체크된 이미지를 추가합니다. */
+    background-image: url("../img/join_checkMark.png"); /* 체크된 이미지를 추가합니다. */
     background-size: cover;
 }
 
 /* 체크되었을 때의 스타일 */
 input[type="checkbox"]:checked + label::before {
     background-color: #5F0080; /* 배경색을 변경합니다. */
-    background-image: url("../image/join_checkMark.png"); /* 체크된 이미지를 추가합니다. */
+    background-image: url("../img/join_checkMark.png"); /* 체크된 이미지를 추가합니다. */
     background-size: cover;
 }
 
