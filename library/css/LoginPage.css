@@ -39,6 +39,7 @@ input[name="login_id"] {
     display: block;
     margin: 0 auto;
     margin-bottom: 10px;
+    text-indent: 10px;
 }
 
 input[name="login_pw"] {
@@ -50,7 +51,9 @@ input[name="login_pw"] {
     display: block;
     margin: 0 auto;
     margin-bottom: 10px;
+    text-indent: 10px;
 }
+
 
 main a.find_id{
     color: #000000;
@@ -62,6 +65,46 @@ main a.find_id{
 main a.find_pw{
     color: #000000;
     font-size: 13px;
+}
+
+#login_null {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    padding: 65px;
+    border: 3px solid #D9D9D9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999; /* 다른 요소 위에 표시되도록 z-index 설정 */
+
+}
+
+#login_error {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    padding: 65px;
+    border: 3px solid #D9D9D9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999; /* 다른 요소 위에 표시되도록 z-index 설정 */
+}
+
+#login_success {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+    padding: 65px;
+    border: 3px solid #D9D9D9;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 9999; /* 다른 요소 위에 표시되도록 z-index 설정 */
 }
 
 
@@ -77,6 +120,9 @@ main #login_click {
     text-align: center;
     margin: 40px auto 10px auto;
     font-weight: bold;
+    font-size: 16px;
+
+    cursor: pointer;
 
 
 }
@@ -84,7 +130,7 @@ main a.join_click {
     background: #FFFFFF;
     color: #5F0080;
 
-    font-size: 13px;
+    font-size: 16px;
 
     border-radius: 5px;
     border: 2px solid #5F0080;
