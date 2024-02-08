@@ -46,3 +46,39 @@ document.getElementById("cancelButton4").addEventListener("click", function() {
     var popup = document.querySelector(".product-popup-p4");
     popup.style.display = "none";
 });
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const categoryBtn1 = document.getElementById("ct-btn");
+    const categoryBox1 = document.querySelector(".category-box");
+
+
+    categoryBtn1.addEventListener("mouseover", function() {
+        categoryBox1.style.display = "block";
+        categoryBox1.style.position = "fixed";
+    });
+
+    // 마우스를 category-btn에서 뗐을 때
+    categoryBtn1.addEventListener("mouseout", function() {
+        categoryBox1.style.display = "none";
+        categoryBox1.style.position = "";
+    });
+});
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const categoryBtn2 = document.getElementById("ct-box");
+    const categoryBox2 = document.querySelector(".category-box");
+
+
+    categoryBtn2.addEventListener("mouseover", function() {
+        categoryBox2.style.display = "block";
+        categoryBox2.style.position = "fixed";
+    });
+
+    // 마우스를 category-btn에서 뗐을 때
+    categoryBtn2.addEventListener("mouseout", function() {
+        categoryBox2.style.display = "none";
+        categoryBox2.style.position = "";
+    });
+});
