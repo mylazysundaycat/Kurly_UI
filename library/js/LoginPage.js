@@ -8,12 +8,14 @@ document.addEventListener('DOMContentLoaded', function() { /*로그인 알림박
         if (username.trim() === '' || password.trim() === '') {
             document.getElementById('login_null').style.display = 'block';
         } else if (username === "early" && password === "rabbit") {
-            document.getElementById('login_success').style.display = 'block';
-            /*이부분 수정필요, css가 깨져나옴*/window.location.href="../../index.html";
+
+            alert("안녕하세요, early rabbit님!");
+            window.location.href = "../index.html";
+
         } else {
             document.getElementById('login_error').style.display = 'block';
         }
-a
+
     });
 
     document.addEventListener('click', function(event) {
@@ -50,13 +52,4 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-/*
-document.getElementById('login_click').addEventListener('click', function () {
-    const username = document.getElementById('login_id').value;
-    const password = document.getElementById('login_pw').value;
 
-    if (username === "early" && password === "rabbit") {
-        window.location.href="../../page/JoinPage.html";
-    }
-});
-*/
