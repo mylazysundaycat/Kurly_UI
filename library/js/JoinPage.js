@@ -236,7 +236,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    document.addEventListener('click', function () {
+    document.addEventListener('focusout', function () {
         document.getElementById('address-numbers').style.display = 'inline-block';
         document.getElementById('address-roads').style.display = 'inline-block';
         document.getElementById('address-oldAddress').style.display = 'inline-block';
@@ -248,12 +248,15 @@ document.addEventListener('DOMContentLoaded', function() {
 
 /*상세주소 미입력시*/
 document.addEventListener('DOMContentLoaded', function() {
-    document.addEventListener('click', function () {
+    document.addEventListener('focusout', function () {
         let password = document.getElementById('address-details').value;
 
         if (password.trim() === '') {
             document.getElementById('address-details').style.border = '1.5px solid red'; // 테두리 색상 변경
+        } else {
+                document.getElementById('address-details').style.border = '1.5px solid green'; // 테두리 색상 변경
 
-        }
+            }
+
     })
 })
