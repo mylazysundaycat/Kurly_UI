@@ -1,12 +1,16 @@
 window.addEventListener("DOMContentLoaded", function () {
   $(document).ready(function () {
     var number = $(".inp").val();
+    const price = document.getElementById("gd_price");
+    const data_price = price.getAttribute("data-price");
+    const total_price = document.getElementById("won");
 
     //수량 증가 감소
     $(".down").click(function () {
       if ($(".inp").val() >= 0) {
         number--;
         $(".inp").val(number);
+        console.log(parseInt(data_price));
       }
 
       if (parseInt($(".inp").val()) <= 0) {
