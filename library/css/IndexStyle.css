@@ -15,6 +15,10 @@ main{
     margin-bottom: 170px;
 }
 
+a{
+    text-decoration-line: none;
+}
+
 
 .benefit-banner {
     background-color: #5F0080;
@@ -57,6 +61,7 @@ main{
 }
 .register-row .register{
     padding-right: 10px;
+    color: #5F0080;
 }
 
 .register-row .seperator{
@@ -65,6 +70,7 @@ main{
 
 .register-row .login{
     padding-left: 10px;
+    color: #5F0080;
 }
 
 
