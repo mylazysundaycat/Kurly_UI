@@ -283,7 +283,7 @@
               <div  class="gr_thumb_title">
               </div>
               <div class="gr_thumb_img">
-                <img src="/library/img/gd_product_4.jpeg" />
+                <img src="/library/img/gd_product_4.jpeg" data-num=1/>
               </div>
             </button>
      
@@ -291,42 +291,42 @@
               <div  class="gr_thumb_title">
               </div>
               <div class="gr_thumb_img">
-                <img src="/library/img/gd_product_4.jpeg" />
+                <img src="/library/img/gd_product_4.jpeg" data-num=2/>
               </div>
             </button>
             <button class="gr_thumb">
               <div  class="gr_thumb_title">
               </div>
               <div class="gr_thumb_img">
-                <img src="/library/img/gd_product_4.jpeg" />
+                <img src="/library/img/gd_product_4.jpeg" data-num=3/>
               </div>
             </button>
             <button class="gr_thumb">
               <div  class="gr_thumb_title">
               </div>
               <div class="gr_thumb_img">
-                <img src="/library/img/gd_product_4.jpeg" />
+                <img src="/library/img/gd_product_4.jpeg" data-num=4/>
               </div>
             </button>
             <button class="gr_thumb">
               <div  class="gr_thumb_title">
               </div>
               <div class="gr_thumb_img">
-                <img src="/library/img/gd_product_4.jpeg" />
+                <img src="/library/img/gd_product_4.jpeg" data-num=5/>
               </div>
             </button>
             <button class="gr_thumb">
               <div  class="gr_thumb_title">
               </div>
               <div class="gr_thumb_img">
-                <img src="/library/img/gd_product_4.jpeg" />
+                <img src="/library/img/gd_product_4.jpeg" data-num=6/>
               </div>
             </button>
             <button class="gr_thumb">
               <div  class="gr_thumb_title">
               </div>
               <div class="gr_thumb_img">
-                <img src="/library/img/gd_product_4.jpeg" />
+                <img src="/library/img/gd_product_4.jpeg" data-num=7/>
               </div>
             </button>
 
@@ -335,7 +335,7 @@
                 <span class="gr_thumb_title_font">+더보기</span>
               </div>
               <div class="gr_thumb_img">
-                <img src="/library/img/gd_product_4.jpeg" />
+                <img src="/library/img/gd_product_4.jpeg" data-num=8/>
               </div>
             </button>
 
@@ -458,14 +458,22 @@
 
 
     <div class="modal-container" id="modalContainer">
+
       <div class="modal">
+        <div class="modal_btn">
+          <button class="modal_next_btn" id="modal_prev_btn">
+            <span>
+              <svg width="23" height="44" viewBox="0 0 23 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 1.5L2 22L22 42.5" stroke="black" stroke-width="2"></path></svg>
+            </span>
+          </button>
+        </div>
         <header>
           <span class="mh_title">사진 후기</span>
           <button class="mh_btn" id="modal_btnClose"><span>X</span></button>
         </header>
         <div class="modal_main">
           <div class="mm_img">
-             <img src="/library/img/gd_product_4.jpeg" alt="Modal Image">
+             <img src="/library/img/gd_product_4.jpeg" alt="modal_image" data-num=1 id="modal_review_img">
           </div>
 
           <div class="mm_review">
@@ -473,10 +481,10 @@
               <span class="gr_a_n_grade">일반</span>
               <span class="gr_a_n_username">엘**</span>
             </div>
-            <div class="gr_a_product_name">[리뷰 상품 이름] 상품 이름 </div>
+            <div class="gr_a_product_name" id="gr_a_product_name">[리뷰 상품 이름] 상품 이름 </div>
 
             <div class="gr_a_content_detail">
-              <p> 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다.
+              <p id="gr_a_content_detail"> 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다. 리뷰 내용 입니다.
                
               </p>
             </div>
@@ -497,8 +505,16 @@
 
           </div>
         </div>
+
        
-      </div?>
+      </div>
+      <div class="modal_btn_r">
+        <button class="modal_next_btn" id="modal_next_btn">
+          <span>
+            <svg width="23" height="44" viewBox="0 0 23 44" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1.5L21 22L1 42.5" stroke="black" stroke-width="2"></path></svg>
+          </span>
+        </button>
+      </div>
     </div>
     
     <div class="background" id="background"></div>
