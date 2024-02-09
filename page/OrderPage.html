@@ -232,9 +232,9 @@
                 </div>
                 <div class="Order_page-choice">
                     <div class="Order_page-main_choice">
-                        <p class="Order_page-choice_text">
-                            컬리카드로 결제하고 최대5% 적립받으세요
-                        </p>
+                        <div class="Order_page-choice_text">
+                            <p>컬리카드로 결제하고</p>
+                            <p>최대5% 적립받으세요</p></div>
                         <div class="Order_page-choice_button">
                             <p>카드 신청하기</p>
                         </div>
@@ -306,7 +306,7 @@
         </div>
 
         <div class="Order_page-pay_button">
-            <p>299,000원 결제하기</p>
+            <p id="Order_page-pay_cost" class="Order_page-pay_cost_class">219,000원 결제하기</p>
         </div>
     </div>
 
@@ -319,11 +319,11 @@
             <div class="Order_page-sum_details">
                 <div class="Order_page-order_sum">
                     <p class="Order_page-order_sum_text">주문금액</p>
-                    <p>299,000원</p>
+                    <p>219,000원</p>
                 </div>
                 <div class="Order_page-order_sum2">
                     <p class="Order_page-order_sum_text2">ㄴ 상품금액</p>
-                    <p>399,000원</p>
+                    <p class>319,000원</p>
                 </div>
                 <div class="Order_page-order_sum3">
                     <p class="Order_page-order_sum_text3">ㄴ 상품할인금액</p>
@@ -343,11 +343,15 @@
                 </div>
                 <div class="Order_page-order_sum7">
                     <p class="Order_page-order_sum_text7">적립금·컬리캐시</p>
-                    <p>0원</p>
+                    <input type="text" name="sum_using_point_all" id="point_sum_all" class="Order_page-sum_point_all"
+                           value="" placeholder="0" >
+                    <p>원</p>
                 </div>
                 <div class="Order_page-order_sum8">
                     <p class="Order_page-order_sum_text8">ㄴ 적립금</p>
-                    <p>0원</p>
+                    <input type="text" name="sum_using_point" id="point_sum" class="Order_page-sum_point"
+                           value="" placeholder="0" >
+                    <p>원</p>
                 </div>
                 <div class="Order_page-order_sum9">
                     <p class="Order_page-order_sum_text9">ㄴ 컬리캐시</p>
@@ -355,7 +359,9 @@
                 </div>
                 <div class="Order_page-sum">
                     <p class="Order_page-sum_last">최종결제금액</p>
-                    <p>299,000원</p>
+                    <input type="text" name="final_cost" id="final_cost_id" class="Order_page-final_cost"
+                           value="" placeholder="219,000" >
+                    <p>원</p>
                 </div>
                 <div class="Order_page-bonus">컬리카드 결제 시 최대 14,950원 추가 적립</div>
             </div>
