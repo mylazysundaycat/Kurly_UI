@@ -4,25 +4,34 @@ window.addEventListener("DOMContentLoaded", function () {
     const price = document.getElementById("gd_price");
     const data_price = price.getAttribute("data-price");
     const total_price = document.getElementById("won");
+    total_price.innerHTML = (
+      parseInt(data_price) * parseInt($(".inp").val())
+    ).toLocaleString("ko-KR");
 
     //수량 증가 감소
     $(".down").click(function () {
-      if ($(".inp").val() >= 0) {
-        number--;
-        $(".inp").val(number);
-        console.log(parseInt(data_price));
+      if (parseInt($(".inp").val()) <= 1) {
+        $(".inp").val(1);
+        alert("수량");
+        return;
       }
 
-      if (parseInt($(".inp").val()) <= 0) {
-        alert("수량");
-        $(".inp").val(1);
-        return false;
-      }
+      number--;
+      $(".inp").val(number);
+      console.log(parseInt(data_price) * parseInt($(".inp").val()));
+
+      total_price.innerHTML = (
+        parseInt(data_price) * parseInt($(".inp").val())
+      ).toLocaleString("ko-KR");
     });
 
     $(".up").click(function () {
       number++;
       $(".inp").val(number);
+
+      total_price.innerHTML = (
+        parseInt(data_price) * parseInt($(".inp").val())
+      ).toLocaleString("ko-KR");
     });
 
     // 상품 상세정보 탭 이동
