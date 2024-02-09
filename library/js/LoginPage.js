@@ -1,6 +1,6 @@
 
-
-document.addEventListener('DOMContentLoaded', function() { /*로그인 알림박스*/
+/*로그인 알림박스*/
+document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('login_click').addEventListener('click', function () {
         let username = document.getElementById('login_id').value;
         let password = document.getElementById('login_pw').value;
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() { /*로그인 알림박
 
 
 
-
+/*아이디 한글 제한*/
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('input[name="login_id"]').addEventListener('input', function() {
         let inputValue = this.value;
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
-
+/*비밀번호 한글 제한*/
 document.addEventListener('DOMContentLoaded', function() {
     document.querySelector('input[name="login_pw"]').addEventListener('input', function() {
         let inputValue = this.value;

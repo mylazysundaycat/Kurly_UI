@@ -324,7 +324,7 @@ input#gender1, input#gender2, input#gender3, input#other1, input#other2{
 
 
 input[type="checkbox"] {/*체크박스 디자인변경*/
-    opacity: 0; /* 요소를 화면에서 숨깁니다. */
+    opacity: 0; /* 요소를 화면에서 숨김 */
 }
 
 input[type="checkbox"] + label::before {
@@ -336,15 +336,15 @@ input[type="checkbox"] + label::before {
     border-radius: 50%;
     background-color: #FFFFFF;
     cursor: pointer;
-    background-image: url("../img/join_checkMark.png"); /* 체크된 이미지를 추가합니다. */
+    background-image: url("../img/join_checkMark.png");
     background-size: cover;
     margin-right: 5px;
 }
 
 /* 체크되었을 때의 스타일 */
 input[type="checkbox"]:checked + label::before {
-    background-color: #5F0080; /* 배경색을 변경합니다. */
-    background-image: url("../img/join_checkMark.png"); /* 체크된 이미지를 추가합니다. */
+    background-color: #5F0080;
+    background-image: url("../img/join_checkMark.png");
     background-size: cover;
 }
 

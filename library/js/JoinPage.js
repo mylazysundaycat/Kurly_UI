@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
                 if (password !== repeatPassword) {
                     alert("비밀번호가 일치하지 않습니다. 비밀번호를 확인해주세요.");
-                    return; // 비밀번호가 일치하지 않을 때 이후 코드 실행을 막습니다.
+                    return; // 비밀번호가 일치하지 않을 때 이후 코드 실행을 저지함
                 }
 
 
@@ -210,7 +210,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        // 모든 조건을 충족했을 때는 어떤 동작을 수행합니다.
+        // 모든 조건을 충족했을 때 특정 동작 수행하는 곳
         alert("가입이 완료되었습니다.");
         window.location.href = "../index.html";
     });
