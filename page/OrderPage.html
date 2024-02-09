@@ -5,8 +5,69 @@
     <title>주문화면</title>
     <link rel="stylesheet" href="../library/css/OrderPage.css">
     <script defer src="../library/js/OrderPage.js"></script>
+    <link rel="stylesheet" href="../library/css/IndexStyle.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
+<!-- 세일 배너 -->
+<div class="benefit-banner white-color">
+    <div class="bb-container1">
+        <div class="bb-text">지금 가입하고, <b>1만원 할인쿠폰</b> 받아가세요!</div>
+        <button class="bb-x-icon" id="bb-x-icon"><span class="material-symbols-outlined cur" style="padding-top: 5px; font-size: 21px">close</span></button>
+    </div>
+
+</div>
+<!-- 헤더 및 네비게이션 -->
+<header>
+    <div class="register-row">
+        <div class="register main-color cur">회원가입</div>
+        <div class="seperator sub-color1">|</div>
+        <div class="login cur">로그인</div>
+    </div>
+    <div class="logo-row">
+        <div class="logo-icon"><img src="../library/img/logo-icon.png" alt="Kurly"></div>
+        <div class="market-kurly main-color cur">마켓컬리</div>
+        <div class="seperator sub-color1">|</div>
+        <div class="beauty-kurly sub-color2 cur">뷰티컬리</div>
+        <div class="search">
+            <form action="/search" method="get" class="search-form">
+                <input type="search" class="search-box" name="search-box" placeholder="검색어를 입력해주세요">
+                <button class="search-btn" type="submit">
+                    <span class="material-symbols-outlined">search</span>
+                </button>
+            </form>
+        </div>
+        <div class="location-icon vertical-uni cur">
+            <img src="../library/img/location-icon.png" class="nav3 cur" alt="location">
+        </div>
+        <div class="heart-icon vertical-uni ">
+            <img src="../library/img/heart-icon.png" class="nav3 cur" alt="heart">
+        </div>
+        <div class="cart-icon vertical-uni">
+            <img src="../library/img/cart-icon.png" class="nav3 cur" alt="cart">
+        </div>
+    </div>
+    <div class="category-row">
+        <div class="category">
+            <button class="category-btn">
+                <div class="material-symbols-outlined">menu</div>
+                <div>카테고리</div>
+            </button>
+        </div>
+        <div class="ni-font ni-margin1">신상품</div>
+        <div class="ni-font ni-margin1">베스트</div>
+        <div class="ni-font ni-margin1">알뜰쇼핑</div>
+        <div class="ni-font ni-margin1">특가/혜택</div>
+        <div class="special-shipping"><span class="main-color font-bold">샛별·하루</span>배송안내</div>
+    </div>
+</header>
+<!-- 헤더 및 네비게이션 종료 -->
+
 <div class = "Order_page-order"><!-- 주문서 -->
     <p class="Order_page-text_order">주문서</p>
 </div>
@@ -122,7 +183,7 @@
                 <div class="Order_page-usable">
                     <div class="Order_page-usable_one">
                         <p class="Order_page-usable_one_text">사용가능 잔액</p>
-                        <p class = "Order_page-use_1">3,000원</p>
+                        <p class = "Order_page-use_1">2,000원</p>
                     </div>
                     <div class="Order_page-usable_two">
                         <p class="Order_page-usable_two_text">ㄴ적립금</p>
@@ -135,12 +196,14 @@
                 </div>
                 <div class="Order_page-use_all">
                     <div class="Order_page-zero">
-                        <p class="Order_page-use_point_text">0</p>
+                        <input type="text" name="using_point" id="point" class="number_money"
+                               value="" placeholder="0" pattern="[0-9]*" inputmode="decimal" onchange="check_point()">
                     </div>
-                    <div class="Order_page-use_all_text">
+                    <div class="Order_page-use_all_text" onclick="use_all(event)">
                         <p>모두사용</p>
                     </div>
                 </div>
+
                 <p class="Order_page-text1">사용 시 적립금이 먼저 소진됩니다.</p>
                 <p class="Order_page-text2">컬리캐시 사용 시 컬리페이 간편결제만 가능합니다.</p>
             </div>
@@ -185,13 +248,13 @@
                 </div>
 
                 <div class="Order_page-three_choice">
-                    <div class="Order_page-three_choice_one">
+                    <div class="Order_page-three_choice_btn" onclick="change_color(event)">
                         <p>신용카드</p>
                     </div>
-                    <div class="Order_page-three_choice_two">
+                    <div class="Order_page-three_choice_btn" onclick="change_color(event)">
                         <p>간편 결제</p>
                     </div>
-                    <div class="Order_page-three_choice_three">
+                    <div class="Order_page-three_choice_btn" onclick="change_color(event)">
                         <p>휴대폰</p>
                     </div>
                 </div>
@@ -417,6 +480,8 @@
     <p>마켓플레이스(오픈마켓)상품의 경우 컬리는 통신판매중개자로서 통신판매의 당사자가 아닙니다. 컬리는 해당 상품의 주문,품질,교환/환불 등 의무와 책임을 부담하지 않습니다.</p>
     <p>ⓒKURLY CORP.ALL RIGHTS RESERVED</p>
 </div>
+
+
 
 </body>
 </html>
