@@ -620,14 +620,14 @@ main{
 
 .category-box {
     width: 280px;
-    height: 653px;
+    height: 648px;
     position: absolute;
 }
 
 
 .category-box .group {
     width: 280px;
-    height: 653px;
+    height: 648px;
     /* top: 0; */
     /* left: 0; */
     background-color: white;
@@ -635,10 +635,11 @@ main{
 
 .category-box .overlap-group {
     position: relative;
-    width: 279px;
+    width: 280px;
     height: 648px;
     background-size: 100% 100%;
     border: solid 1px #D9D9D9;
+    box-sizing: border-box;
 }
 
 .category-box .img1 {
@@ -966,6 +967,7 @@ main{
 .w2-check-box {
     display: flex;
     flex-display: row;
+    height: 30px;
 }
 
 .w2-plus{
@@ -977,6 +979,7 @@ main{
     border-left: 0px;
     background-color: white;
     font-size: 14px;
+    height: 30px;
 }
 .w2-count{
     background-color: white;
@@ -986,8 +989,9 @@ main{
     border-left: 0px;
     width: 18px;
     text-align: center;
-    padding: 6px;
     font-weight: bold;
+    box-sizing: border-box;
+    height: 30px
 }
 
 .w2-minus{
@@ -999,7 +1003,22 @@ main{
     border-right: 0px;
     background-color: white;
     font-size: 14px;
+    height: 30px;
 }
+.cb-h{
+    height: 65px;
+}
+.cb-h:hover {
+    background-color: #F7F7F7;
+}
+
+.cb-h1{
+    height: 52px;
+}
+.cb-h1:hover {
+    background-color: #F7F7F7;
+}
+
 
 
 
