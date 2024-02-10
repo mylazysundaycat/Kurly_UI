@@ -696,6 +696,12 @@ html body {
   margin-bottom: 10px;
 }
 
+.btn.btn_cart a {
+  color:white;
+}
+
+
+
 /* ====================================상품 후기==================================== */
 .good_reviews {
   display: flex;
