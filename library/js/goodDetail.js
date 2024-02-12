@@ -146,13 +146,13 @@ window.addEventListener("DOMContentLoaded", function () {
     },
     {
       id: 7,
-      src: "/library/img/gd_product_2.jpg",
+      src: "/library/img/gd_product_3.jpg",
       good_title: "테스트 상품7",
       good_review: "테스트 리뷰7",
     },
     {
       id: 8,
-      src: "/library/img/gd_product_3.jpg",
+      src: "/library/img/gd_product_4.jpeg",
       good_title: "테스트 상품8",
       good_review: "테스트 리뷰8",
     },
